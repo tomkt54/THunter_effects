@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.Material",
+  "_name": "mat energy smoke",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "829a282c-b049-4019-bd38-5ace8d8a6417"
+  },
+  "_techniqueIndex": 1,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "mainTexture": {
+          "__uuid__": "6d032c4f-85e0-480b-9924-5dc24d6d300a"
+        }
+      },
+      "defines": {}
+    }
+  }
+}

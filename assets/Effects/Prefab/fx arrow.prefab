@@ -1,0 +1,358 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "fx arrow",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 27
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ParticleSystem3D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "c2853b76-2222-468d-b29a-6c6ec52df4bf"
+      },
+      {
+        "__uuid__": "effb7985-833d-46df-a050-6f4cd45771b1"
+      }
+    ],
+    "duration": 1,
+    "_capacity": 1,
+    "loop": false,
+    "playOnAwake": true,
+    "_prewarm": false,
+    "_simulationSpace": 1,
+    "simulationSpeed": 1,
+    "startDelay": {
+      "__id__": 3
+    },
+    "startLifetime": {
+      "__id__": 4
+    },
+    "startColor": {
+      "__id__": 5
+    },
+    "scaleSpace": 1,
+    "startSize": {
+      "__id__": 6
+    },
+    "startSpeed": {
+      "__id__": 7
+    },
+    "startRotation": {
+      "__id__": 8
+    },
+    "gravityModifier": {
+      "__id__": 9
+    },
+    "rateOverTime": {
+      "__id__": 10
+    },
+    "rateOverDistance": {
+      "__id__": 11
+    },
+    "bursts": [
+      {
+        "__id__": 12
+      }
+    ],
+    "_sizeOvertimeModule": {
+      "__id__": 14
+    },
+    "_trailModule": {
+      "__id__": 22
+    },
+    "_renderMode": 1,
+    "_velocityScale": 0,
+    "_lengthScale": -15,
+    "_mesh": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0.5,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.GradientRange",
+    "_mode": 0,
+    "color": {
+      "__type__": "cc.Color",
+      "r": 216,
+      "g": 186,
+      "b": 141,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 8,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 1,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.Burst",
+    "_time": 0,
+    "minCount": 30,
+    "maxCount": 30,
+    "_repeatCount": 1,
+    "repeatInterval": 1,
+    "count": {
+      "__id__": 13
+    }
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 1,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.SizeOvertimeModule",
+    "enable": true,
+    "separateAxes": false,
+    "size": {
+      "__id__": 15
+    },
+    "x": {
+      "__id__": 19
+    },
+    "y": {
+      "__id__": 20
+    },
+    "z": {
+      "__id__": 21
+    }
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 1,
+    "curve": {
+      "__id__": 16
+    },
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.AnimationCurve",
+    "keyFrames": [
+      {
+        "__id__": 17
+      },
+      {
+        "__id__": 18
+      }
+    ],
+    "preWrapMode": 2,
+    "postWrapMode": 2
+  },
+  {
+    "__type__": "cc.Keyframe",
+    "time": 0,
+    "value": 1,
+    "inTangent": 0,
+    "outTangent": -1.36
+  },
+  {
+    "__type__": "cc.Keyframe",
+    "time": 1,
+    "value": 0.04,
+    "inTangent": 0,
+    "outTangent": 0
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.TrailModule",
+    "_enable": true,
+    "mode": 0,
+    "lifeTime": {
+      "__id__": 23
+    },
+    "_minParticleDistance": 0.1,
+    "_space": 0,
+    "existWithParticles": true,
+    "textureMode": 0,
+    "widthFromParticle": true,
+    "widthRatio": {
+      "__id__": 24
+    },
+    "colorFromParticle": true,
+    "colorOverTrail": {
+      "__id__": 25
+    },
+    "colorOvertime": {
+      "__id__": 26
+    }
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 1,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 0,
+    "constant": 1,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.GradientRange",
+    "_mode": 0,
+    "color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.GradientRange",
+    "_mode": 0,
+    "color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "4eccabf2-295a-493f-91bd-d2a37b69217c"
+    },
+    "fileId": "41vWxSRCpDyquwagIIoaPj",
+    "sync": false
+  }
+]

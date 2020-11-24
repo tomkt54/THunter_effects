@@ -1,0 +1,379 @@
+{
+  "ver": "1.1.0",
+  "uuid": "755cb767-6b0f-449d-ae31-43c706a58930",
+  "scaleFactor": 1,
+  "boneCount": 43,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.0",
+      "uuid": "e7acfcb6-5520-474c-8167-d80b532a3590",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Body.mesh": {
+      "ver": "1.0.1",
+      "uuid": "a52161ff-7edd-4aae-b026-633c148499f7",
+      "verts": 1157,
+      "tris": 1376,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.207525089383125,
+        "y": 0.354563981294632,
+        "z": -1.06251299381256
+      },
+      "maxPos": {
+        "x": 0.207525119185448,
+        "y": 0.864811837673187,
+        "z": 0.87857574224472
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Body.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Arm_R.mesh": {
+      "ver": "1.0.1",
+      "uuid": "6d9bbf8b-0a3d-4145-84df-7322dffb3186",
+      "verts": 411,
+      "tris": 334,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.174289286136627,
+        "y": 0.105665408074856,
+        "z": 0.142651215195656
+      },
+      "maxPos": {
+        "x": -0.0503400154411793,
+        "y": 0.542778432369232,
+        "z": 0.350508868694305
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Arm_R.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Arm_L.mesh": {
+      "ver": "1.0.1",
+      "uuid": "edb95e3d-6c5e-45d8-9fda-b76c46ef48a9",
+      "verts": 381,
+      "tris": 324,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": 0.0503400899469852,
+        "y": 0.105665415525436,
+        "z": 0.142651155591011
+      },
+      "maxPos": {
+        "x": 0.174289360642433,
+        "y": 0.542778432369232,
+        "z": 0.350508868694305
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Arm_L.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Foot.mesh": {
+      "ver": "1.0.1",
+      "uuid": "ec440a28-8105-4a99-820f-853aa8ca394e",
+      "verts": 476,
+      "tris": 488,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.182106286287308,
+        "y": -0.0261460207402706,
+        "z": -0.218964606523514
+      },
+      "maxPos": {
+        "x": 0.182106286287308,
+        "y": 0.212748408317566,
+        "z": 0.0845586732029915
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Foot.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Mong.mesh": {
+      "ver": "1.0.1",
+      "uuid": "c0a4a00c-d2a3-4c0c-abea-7571b8694f4f",
+      "verts": 100,
+      "tris": 120,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0897245407104492,
+        "y": 0.0353001318871975,
+        "z": -0.0835066810250282
+      },
+      "maxPos": {
+        "x": 0.0897245109081268,
+        "y": 0.176668852567673,
+        "z": 0.0788071006536484
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Mong.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Leg_L.mesh": {
+      "ver": "1.0.1",
+      "uuid": "a426b6eb-a874-4664-9c21-c5d063c8519f",
+      "verts": 261,
+      "tris": 246,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": 0.0514707416296005,
+        "y": 0.168918266892433,
+        "z": -0.182835847139359
+      },
+      "maxPos": {
+        "x": 0.182540819048882,
+        "y": 0.526569187641144,
+        "z": 0.0972306877374649
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Leg_L.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot:Raptor_Robot_Leg_R.mesh": {
+      "ver": "1.0.1",
+      "uuid": "fb022282-c723-4162-978d-deef0749cb23",
+      "verts": 261,
+      "tris": 246,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.182540819048882,
+        "y": 0.168918266892433,
+        "z": -0.182835802435875
+      },
+      "maxPos": {
+        "x": -0.051470760256052,
+        "y": 0.526569187641144,
+        "z": 0.0972306877374649
+      },
+      "name": "Raptor_Robot:Raptor_Robot_Leg_R.mesh",
+      "subMetas": {}
+    },
+    "Raptor_Robot-0.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "a813a585-ca98-4981-9764-cb98fd587386",
+      "name": "Raptor_Robot-0.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot-1.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "95145c27-c034-465b-a079-8fa1662a3b6a",
+      "name": "Raptor_Robot-1.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot-2.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "d17b9880-201d-45e7-b3d6-1ddd563ca6f1",
+      "name": "Raptor_Robot-2.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot-3.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "42fdb64c-54fa-4839-afa2-eb59574e8ae5",
+      "name": "Raptor_Robot-3.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot-4.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "ff8ca522-81ba-49f8-9f96-2dc8a8ba75fd",
+      "name": "Raptor_Robot-4.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot-5.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "92a4879f-0793-4fe5-88ec-28eb68437671",
+      "name": "Raptor_Robot-5.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot-6.skeleton": {
+      "ver": "1.0.1",
+      "uuid": "effc7cf4-0176-4fbc-b5d3-62d2b1ee67e8",
+      "name": "Raptor_Robot-6.skeleton",
+      "subMetas": {}
+    },
+    "Raptor_Robot.prefab": {
+      "ver": "1.2.7",
+      "uuid": "22072a51-5816-48bb-aa9c-292b5ab39087",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "Raptor_Robot.prefab",
+      "subMetas": {}
+    },
+    "Raptor_Robot:lambert2.mtl": {
+      "ver": "1.0.3",
+      "uuid": "70c7698e-4385-451b-88ad-2083513c076f",
+      "dataAsSubAsset": null,
+      "name": "Raptor_Robot:lambert2.mtl",
+      "subMetas": {}
+    }
+  }
+}
