@@ -55,9 +55,9 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0.028,
-        0.551,
-        0.078,
+        0.73,
+        0.544,
+        0.279,
         0,
         0,
         0,
@@ -160,7 +160,7 @@
     "duration": 0.5,
     "_capacity": 16,
     "loop": false,
-    "playOnAwake": false,
+    "playOnAwake": true,
     "_prewarm": false,
     "_simulationSpace": 0,
     "simulationSpeed": 1,
@@ -315,15 +315,15 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.03,
-    "constantMax": 0.025,
+    "constantMin": 2,
+    "constantMax": 3,
     "multiplier": 1
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 3,
-    "constantMax": 6,
+    "constantMin": 100,
+    "constantMax": 200,
     "multiplier": 1
   },
   {
@@ -335,7 +335,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 1,
+    "constant": 30,
     "multiplier": 1
   },
   {
@@ -373,7 +373,7 @@
     "enable": true,
     "_shapeType": 2,
     "emitFrom": 0,
-    "radius": 0.05,
+    "radius": 0.1,
     "radiusThickness": 1,
     "_angle": 1.0471975511965976,
     "_arc": 6.283185307179586,
@@ -557,7 +557,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "aa8c544f-2bd1-4ad7-89df-309a99337ebe"
     },
     "fileId": "17A/RiufFCfaRx/D5R16Ix",
     "sync": false
@@ -643,7 +643,7 @@
     "duration": 0.5,
     "_capacity": 4,
     "loop": false,
-    "playOnAwake": false,
+    "playOnAwake": true,
     "_prewarm": false,
     "_simulationSpace": 0,
     "simulationSpeed": 1,
@@ -722,14 +722,14 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.3,
-    "constantMax": 0.6,
+    "constantMin": 15,
+    "constantMax": 25,
     "multiplier": 1
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 0.01,
+    "constant": 10,
     "multiplier": 1
   },
   {
@@ -937,7 +937,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "aa8c544f-2bd1-4ad7-89df-309a99337ebe"
     },
     "fileId": "7b7mPeMMpPbrfFvufhq2WP",
     "sync": false
@@ -959,7 +959,7 @@
     "duration": 0.5,
     "_capacity": 4,
     "loop": false,
-    "playOnAwake": false,
+    "playOnAwake": true,
     "_prewarm": false,
     "_simulationSpace": 1,
     "simulationSpeed": 1,
@@ -1031,8 +1031,8 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.4,
-    "constantMax": 0.7,
+    "constantMin": 25,
+    "constantMax": 35,
     "multiplier": 1
   },
   {
@@ -1069,10 +1069,10 @@
   {
     "__type__": "cc.ShapeModule",
     "enable": true,
-    "_shapeType": 1,
-    "emitFrom": 0,
-    "radius": 0.15,
-    "radiusThickness": 1,
+    "_shapeType": 3,
+    "emitFrom": 3,
+    "radius": 0.12,
+    "radiusThickness": 0.1,
     "_angle": 0.4363323129985824,
     "_arc": 6.283185307179586,
     "arcMode": 0,
@@ -1180,7 +1180,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "aa8c544f-2bd1-4ad7-89df-309a99337ebe"
     },
     "fileId": "4dsumNCP5JxbZP5TvlrH3Z",
     "sync": false
