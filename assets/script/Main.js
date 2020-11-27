@@ -15,7 +15,7 @@ cc.Class({
     },
 
     bulletPool: cc.NodePool,
-    hitPool: cc.NodePool,
+    //hitPool: cc.NodePool,
 
     start() {
         let count = 20;
