@@ -18,7 +18,7 @@ cc.Class({
         // },
         particles: {
             default: [],
-            type: [cc.ParticleSystem3D],
+            type: [cc.Node],
         },
         // bar: {
         //     get () {
@@ -46,23 +46,24 @@ cc.Class({
     playParticle: function (id = 0) {
 
         //instantiate particle to use
-        let par = this.particles[id];
-        //let par = cc.instantiate(this.particles[id].node);
-        //par.node.position = this.particles[id].node.position;
+       // let par = this.particles[id];
+        let par = cc.instantiate(this.particles[id]);
+        par.parent = this.particles[id].parent;
+        par.setPosition(this.particles[id].position);
 
         this.playAllChild(par);
         // myParticle.play();
     },
 
-    playAllChild: function (particle) {
-        if (particle == null) return;
-        let p = particle.getComponent(cc.ParticleSystem3D);
+    playAllChild: function (node) {
+        if (node == null) return;
+        let p = node.getComponent(cc.ParticleSystem3D);
         if (p) p.play();
 
-        if (particle.node == null) return;
-        if (particle.node.childrenCount == 0) return;
+        //if (particle.node == null) return;
+        if (node.childrenCount == 0) return;
 
-        let childs = particle.node.children;
+        let childs = node.children;
 
         for (p of childs) {
             this.playAllChild(p);

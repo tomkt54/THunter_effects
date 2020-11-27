@@ -7,22 +7,18 @@ cc.Class({
             default: null,   
             type: Bullet,
         },
-        hit: {
-            default: null,
-            type: cc.Component,
-        },
         target: {
             default: null,
             type: cc.Component,
         },
-        returnToPool :4,
+        returnToPool :cc.Float,
     },
 
     bulletPool: cc.NodePool,
     hitPool: cc.NodePool,
 
     start() {
-        let count = 5;
+        let count = 20;
         //init bullet pool
         
         let prefab = this.bullet.node;
@@ -33,7 +29,7 @@ cc.Class({
             //cc.log("instantiated new bullet " + i);
             this.bulletPool.put(_bullet);
         }
-        //---------------------------------
+/*        //---------------------------------
         //init hit pool
         prefab = this.hit.node;
         this.hitPool = new cc.NodePool();
@@ -42,7 +38,7 @@ cc.Class({
             let _hit = cc.instantiate(prefab);
             //cc.log("instantiated new bullet " + i);
             this.hitPool.put(_hit);
-        }
+        }*/
     },
 
 
@@ -72,7 +68,7 @@ cc.Class({
 
         //return to pool after 2 sec
         cc.tween(this.node)
-            .delay(returnToPool)
+            .delay(this.returnToPool)
             .call(() => {
                 this.bulletPool.put(node);
                 //cc.log("return bullet to pool, current obj count is " + this.bulletPool.size());
@@ -81,7 +77,7 @@ cc.Class({
         //cc.log("used bullet pool, current pool count is " + this.bulletPool.size());
 
 
-        //instatiate hit after duration
+/*        //instatiate hit after duration
         cc.tween(this.node)
             .delay(this.bullet.duration)
             .call(() => {
@@ -105,7 +101,7 @@ cc.Class({
 
                 //return to pool after 2 sec
                 cc.tween(this.node)
-                    .delay(returnToPool)
+                    .delay(this.returnToPool)
                     .call(() => {
                         this.hitPool.put(_hit);
                         //cc.log("return bullet to pool, current obj count is " + this.bulletPool.size());
@@ -113,7 +109,7 @@ cc.Class({
                     .start();
 
             })
-            .start();
+            .start();*/
 
         //cc.log("used bullet pool, current pool count is " + this.bulletPool.size());
     },
