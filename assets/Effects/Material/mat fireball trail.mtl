@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.Material",
+  "_name": "mat fireball",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "2a7c0036-e0b3-4fe1-8998-89a54b8a2bec"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "tintColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "mainTexture": {
+          "__uuid__": "da738b07-8d51-4053-8e4d-ec5194170c33"
+        }
+      },
+      "defines": {}
+    }
+  }
+}

@@ -12,6 +12,13 @@
       "props": {
         "mainTexture": {
           "__uuid__": "09442053-a93b-433c-9164-d2c2f97b7c8e"
+        },
+        "tintColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
         }
       },
       "defines": {

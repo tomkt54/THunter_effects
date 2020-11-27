@@ -2,7 +2,7 @@
   "ver": "2.3.5",
   "uuid": "da738b07-8d51-4053-8e4d-ec5194170c33",
   "type": "raw",
-  "wrapMode": "clamp",
+  "wrapMode": "repeat",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,

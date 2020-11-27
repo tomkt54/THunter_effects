@@ -15,6 +15,7 @@ cc.Class({
             default: null,
             type: cc.Component,
         },
+        returnToPool :4,
     },
 
     bulletPool: cc.NodePool,
@@ -71,7 +72,7 @@ cc.Class({
 
         //return to pool after 2 sec
         cc.tween(this.node)
-            .delay(2)
+            .delay(returnToPool)
             .call(() => {
                 this.bulletPool.put(node);
                 //cc.log("return bullet to pool, current obj count is " + this.bulletPool.size());
@@ -104,7 +105,7 @@ cc.Class({
 
                 //return to pool after 2 sec
                 cc.tween(this.node)
-                    .delay(2)
+                    .delay(returnToPool)
                     .call(() => {
                         this.hitPool.put(_hit);
                         //cc.log("return bullet to pool, current obj count is " + this.bulletPool.size());

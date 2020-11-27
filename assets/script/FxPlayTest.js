@@ -44,7 +44,13 @@ cc.Class({
 
     //play single
     playParticle: function (id = 0) {
-        this.playAllChild(this.particles[id]);
+
+        //instantiate particle to use
+        let par = this.particles[id];
+        //let par = cc.instantiate(this.particles[id].node);
+        //par.node.position = this.particles[id].node.position;
+
+        this.playAllChild(par);
         // myParticle.play();
     },
 
