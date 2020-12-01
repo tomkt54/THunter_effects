@@ -21,6 +21,17 @@ cc.Class({
             default: [],
             type: [cc.Node],
         },
+        animator: cc.Animation,
+        keyMap: {
+            default: null,
+            type: Map,
+            visible: false,
+        },
+        animMap: {
+            default: null,
+            type: Map,
+            visible: false,
+        },
         // bar: {
         //     get () {
         //         return this._bar;
@@ -35,11 +46,11 @@ cc.Class({
 
     onLoad: function () {
 
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     },
 
     onDestroy() {
-        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     },
 
     statics: {
@@ -99,9 +110,25 @@ cc.Class({
         }
     },
 
-    onKeyDown(event) {
+    onKeyUp(event) {
+        //Log("pressed " + event.keyCode);
+        let arg = keyMap.get(event.keyCode);
+        if (arg>=0) {
+            //Log("play fx " + arg);
+            this.playParticle(arg);
+        }
+
+        let animarg = animMap.get(event.keyCode);
+        if (animarg) {
+            //Log("play anim " + animarg);
+            var animState = this.animator.play(animarg);
+            if (animarg != "Idle") {
+                animState.wrapMode = cc.WrapMode.Normal;
+            }
+        }
+        
         //cc.log(event.keyCode);
-        switch (event.keyCode) {
+/*        switch (event.keyCode) {
             case cc.macro.KEY.a:
                 this.playParticle(0);
                 //cc.log("A");
@@ -114,12 +141,22 @@ cc.Class({
                 this.playParticle(2);
                 //cc.log("A");
                 break;
-        }
+            case cc.macro.KEY.f:
+                this.playParticle(3);
+                //cc.log("A");
+                break;
+        }*/
     },
 
-    // start () {
 
-    // },
+    start() {
+        //setup key map to use : keycode to number -> get out particles ID
+        //a s d f g q w e r t
+        keyMap = new Map([[65, 0], [83, 1], [68, 2], [70, 3], [71, 4],
+            [81, 5], [87, 6], [69, 7], [82, 8], [84, 9]]);
+        //z x c v b
+        animMap = new Map([[90,"Idle"], [88, "Hit"], [67,"Dead"], [86,""], [66,""]]);
+    },
 
     // update (dt) {},
 });
