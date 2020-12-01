@@ -1691,7 +1691,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "rocks",
+    "_name": "parts",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -1729,7 +1729,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0.279,
+        0.328,
         0,
         0,
         0,
@@ -1763,7 +1763,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "50bf8f63-b0c0-49c2-bfa7-aaa9d0f24ea1"
+        "__uuid__": "a1978a60-11c3-48c1-8554-6e7963427d5c"
       },
       null
     ],
@@ -1831,7 +1831,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.5,
+    "constantMin": 1,
     "constantMax": 0.75,
     "multiplier": 1
   },
@@ -1840,17 +1840,17 @@
     "_mode": 0,
     "color": {
       "__type__": "cc.Color",
-      "r": 133,
-      "g": 128,
-      "b": 125,
+      "r": 223,
+      "g": 223,
+      "b": 223,
       "a": 255
     }
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 2,
-    "constantMax": 5,
+    "constantMin": 5,
+    "constantMax": 10,
     "multiplier": 1
   },
   {
@@ -1899,7 +1899,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 8,
+    "constant": 6,
     "multiplier": 1
   },
   {
@@ -2047,19 +2047,19 @@
     "startFrame": {
       "__id__": 156
     },
-    "cycleCount": 0
-  },
-  {
-    "__type__": "cc.CurveRange",
-    "mode": 3,
-    "constantMin": 0,
-    "constantMax": 3,
-    "multiplier": 1
+    "cycleCount": 1
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
     "constant": 0,
+    "multiplier": 1
+  },
+  {
+    "__type__": "cc.CurveRange",
+    "mode": 3,
+    "constantMin": 0,
+    "constantMax": 3.5,
     "multiplier": 1
   },
   {
@@ -2070,7 +2070,7 @@
     "asset": {
       "__uuid__": "684b6e5c-69c4-4896-b4ba-cff625eccc78"
     },
-    "fileId": "dfCjtZZiNAwI5YY0gFcz3N",
+    "fileId": "86IIPD9T5JQ7m+ZDhvLKBm",
     "sync": false
   },
   {

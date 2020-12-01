@@ -4,6 +4,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+const Log = require('LogView').Log;
 
 cc.Class({
     extends: cc.Component,
@@ -41,6 +42,13 @@ cc.Class({
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
     },
 
+    statics: {
+        particleSystemCount: cc.Integer,
+        AddParticleSystem(value) {
+            particleSystemCount += value;
+            return particleSystemCount;
+        }
+    },
 
     //play single
     playParticle: function (id = 0) {
@@ -49,9 +57,30 @@ cc.Class({
        // let par = this.particles[id];
         let par = cc.instantiate(this.particles[id]);
         par.parent = this.particles[id].parent;
-        par.setPosition(this.particles[id].position);
+        par.setPosition(this.particles[id].position); 
 
+/*        //debug particle system count and when destroy it --
+        try {
+            AddParticleSystem(1);
+        } catch (err) {
+            Log(err.message);
+        }
         this.playAllChild(par);
+        //AddParticleCount(1);
+        Log("asas " + AddParticleSystem(1));*/
+
+        //Log("instantiate new particle system, count=" + particleSystemCount);
+
+        //destroy after 4 sec
+        cc.tween(par.node)
+            .delay(4)
+            .call(() => {
+                par.node.destroy();
+                //particleSystemCount--;
+                //Log("destroy particle system, count=" + particleSystemCount);
+            })
+            .start();
+
         // myParticle.play();
     },
 
@@ -79,6 +108,10 @@ cc.Class({
                 break;
             case cc.macro.KEY.s:
                 this.playParticle(1);
+                //cc.log("A");
+                break;
+            case cc.macro.KEY.d:
+                this.playParticle(2);
                 //cc.log("A");
                 break;
         }
