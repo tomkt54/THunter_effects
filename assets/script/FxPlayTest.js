@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 const Log = require('LogView').Log;
+const Projectile = require('Projectile');
 
 cc.Class({
     extends: cc.Component,
@@ -68,7 +69,11 @@ cc.Class({
        // let par = this.particles[id];
         let par = cc.instantiate(this.particles[id]);
         par.parent = this.particles[id].parent;
-        par.setPosition(this.particles[id].position); 
+        par.setPosition(this.particles[id].position);
+
+        //if it contain projectile -> fire it
+        let proj = par.getComponent(Projectile);
+        if (proj)proj.Fire();
 
 /*        //debug particle system count and when destroy it --
         try {
@@ -155,7 +160,7 @@ cc.Class({
         keyMap = new Map([[65, 0], [83, 1], [68, 2], [70, 3], [71, 4],
             [81, 5], [87, 6], [69, 7], [82, 8], [84, 9]]);
         //z x c v b
-        animMap = new Map([[90,"Idle"], [88, "Hit"], [67,"Dead"], [86,""], [66,""]]);
+        animMap = new Map([[90,"Idle"], [88, "Hit"], [67,"Death"], [86,"Walk"], [66,"Attack"]]);
     },
 
     // update (dt) {},
