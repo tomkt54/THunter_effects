@@ -11,8 +11,10 @@ cc.Class({
     properties: {
         v3Target: {
             default: new cc.Vec3(1, 2, 3),
-            type: cc.Vec3,
         },
+        /*        v3Random: {
+                    default: new cc.Vec3(0,0,0),
+                },*/
         duration: {
             default: 1,
             type: cc.Float,
@@ -38,12 +40,14 @@ cc.Class({
 
     // onLoad () {},
 
-    start () {
-
+    start() {
     },
 
     Fire() {
-        let targetPos = this.node.position.add(this.v3Target);
+/*        let ran = new cc.Vec3(Math.random(-this.v3Random.x, this.v3Random.x),
+            Math.random(-this.v3Random.y, this.v3Random.y),
+            Math.random(-this.v3Random.z, this.v3Random.z));
+*/        let targetPos = this.node.position.add(this.v3Target);//.add(ran);
         cc.tween(this.node)
             .to(this.duration, { position: targetPos })
             .start();

@@ -7,6 +7,14 @@
 const Log = require('LogView').Log;
 const Projectile = require('Projectile');
 
+class fxSequence{
+    key = 0;
+    playNodes = {
+        fx: cc.Node,
+        delay: Number,
+    }[1];
+    }
+
 cc.Class({
     extends: cc.Component,
 
@@ -33,6 +41,15 @@ cc.Class({
             type: Map,
             visible: false,
         },
+        sequenceKey: {
+            default: 1,
+            type: cc.Integer,
+        },
+        sequenceAnim: "Attack",
+        sequence: {
+            default: [],
+            type: [cc.Vec2],
+        },
         // bar: {
         //     get () {
         //         return this._bar;
@@ -42,11 +59,11 @@ cc.Class({
         //     }
         // },
     },
+    
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function () {
-
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     },
 
@@ -88,10 +105,10 @@ cc.Class({
         //Log("instantiate new particle system, count=" + particleSystemCount);
 
         //destroy after 4 sec
-        cc.tween(par.node)
+        cc.tween(par)
             .delay(4)
             .call(() => {
-                par.node.destroy();
+                par.destroy();
                 //particleSystemCount--;
                 //Log("destroy particle system, count=" + particleSystemCount);
             })
@@ -131,6 +148,26 @@ cc.Class({
                 animState.wrapMode = cc.WrapMode.Normal;
             }
         }
+
+        //sequence
+        if (event.keyCode == this.sequenceKey) {
+            var animState = this.animator.play(this.sequenceAnim);
+            animState.wrapMode = cc.WrapMode.Normal;
+
+            for (seq of this.sequence) {
+                //Log(seq.toString() + " x=" + seq.x + " y=" + seq.y);
+                let _seq = seq;
+                cc.tween(this.node)
+                    .delay(_seq.y)
+                    .call(() => {
+                        //play fx by id
+                        this.playParticle(_seq.x);
+                        //Log("play particle " + _seq.x + " " + this.particles[_seq.x].name + " after " + _seq.y);
+                    })
+                    .start();
+            }
+        }
+
         
         //cc.log(event.keyCode);
 /*        switch (event.keyCode) {
