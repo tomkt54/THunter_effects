@@ -13,6 +13,10 @@ cc.Class({
             type: cc.Node,
         },
         moveV3: cc.Vec3,
+        hideObj: {
+            default: null,
+            type: cc.Node,
+        },
     },
 
     fight() {
@@ -34,7 +38,8 @@ cc.Class({
 /*        } catch (err) {
             Log(err.message);
         }*/
-        
+
+        if (this.hideObj) this.hideObj.active = true;
 
         //spawn hitfx
         cc.tween(this.node)
@@ -48,6 +53,9 @@ cc.Class({
                 _hitfx.parent = this.node.parent;
                 //set to current position of _bullet
                 _hitfx.setPosition(this.node.position);
+
+                //hide obj if there is
+                if (this.hideObj) this.hideObj.active = false;
 
             })
             .start();

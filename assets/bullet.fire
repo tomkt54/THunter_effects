@@ -571,6 +571,7 @@
       "y": 0,
       "z": -55
     },
+    "hideObj": null,
     "_id": "99lma5xTNK971RHqgFD8Mz"
   },
   {
@@ -43881,6 +43882,9 @@
       "y": 0,
       "z": -55
     },
+    "hideObj": {
+      "__id__": 2798
+    },
     "_id": "f95oLizjNGaZn8nIBaxL2o"
   },
   {
@@ -44547,6 +44551,7 @@
       "y": 0,
       "z": -55
     },
+    "hideObj": null,
     "_id": "199xr4pexHwrAB9U0P/Cc4"
   },
   {
