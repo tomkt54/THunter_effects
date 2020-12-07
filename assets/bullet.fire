@@ -895,7 +895,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        17.28515,
+        17.75,
         84.492,
         -0.09584574379426108,
         0,
@@ -1001,7 +1001,7 @@
     "_depth": 0,
     "_zoomRatio": 1,
     "_targetTexture": null,
-    "_fov": 60,
+    "_fov": 32.5,
     "_orthoSize": 10,
     "_nearClip": 1,
     "_farClip": 1024,
@@ -1827,7 +1827,7 @@
         "__id__": 52
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 428
@@ -2030,19 +2030,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "e4592a04-05da-4490-94b3-56ce5e1ac2ab"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "5107a6f3-9657-444a-bbf7-cd4ecf573a37"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 37
     },
@@ -2053,9 +2049,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:ThunderJaw_mdl/ThunderJaw:ThunderJawBody_geo",
     "sync": false
   },
@@ -2133,19 +2127,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "32074d7a-e519-41be-a018-55605b251e0f"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "af335d03-ea3e-4e16-a849-e9841a817910"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 37
     },
@@ -2156,9 +2146,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:ThunderJaw_mdl/ThunderJaw:MissileR_geo",
     "sync": false
   },
@@ -2236,19 +2224,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "0e193d0c-bcd4-494c-825a-aae8757b83c1"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "ca0ee7ac-32a2-4450-b406-c2bf223b7108"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 37
     },
@@ -2259,9 +2243,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:ThunderJaw_mdl/ThunderJaw:MissileL_geo",
     "sync": false
   },
@@ -2339,19 +2321,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "56a1a681-676d-48e6-8ff4-96273b38a395"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "68c40c19-2e6b-4bc7-918c-0012cc58f2d9"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 37
     },
@@ -2362,9 +2340,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:ThunderJaw_mdl/ThunderJaw:ThunderJawTail_geo",
     "sync": false
   },
@@ -2373,9 +2349,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:ThunderJaw_mdl",
     "sync": false
   },
@@ -2904,9 +2878,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKSystem/ThunderJaw:FKOffsetRoot_M/ThunderJaw:FKExtraRoot_M/ThunderJaw:FKRoot_M/ThunderJaw:FKXRoot_M",
     "sync": false
   },
@@ -2915,9 +2887,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKSystem/ThunderJaw:FKOffsetRoot_M/ThunderJaw:FKExtraRoot_M/ThunderJaw:FKRoot_M",
     "sync": false
   },
@@ -2926,9 +2896,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKSystem/ThunderJaw:FKOffsetRoot_M/ThunderJaw:FKExtraRoot_M",
     "sync": false
   },
@@ -2937,9 +2905,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKSystem/ThunderJaw:FKOffsetRoot_M",
     "sync": false
   },
@@ -2948,9 +2914,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKSystem",
     "sync": false
   },
@@ -3281,9 +3245,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M/ThunderJaw:IKXOffsetRoot_M/ThunderJaw:IKXRoot_M",
     "sync": false
   },
@@ -3292,9 +3254,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M/ThunderJaw:IKXOffsetRoot_M",
     "sync": false
   },
@@ -3494,9 +3454,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M/ThunderJaw:IKfake0Spine_M/ThunderJaw:IKFixedOrientRoot_M/ThunderJaw:IKAcRootFollowOffset_M",
     "sync": false
   },
@@ -3565,9 +3523,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M/ThunderJaw:IKfake0Spine_M/ThunderJaw:IKFixedOrientRoot_M/ThunderJaw:IKSpRootFollowOffset_M",
     "sync": false
   },
@@ -3576,9 +3532,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M/ThunderJaw:IKfake0Spine_M/ThunderJaw:IKFixedOrientRoot_M",
     "sync": false
   },
@@ -3587,9 +3541,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M/ThunderJaw:IKfake0Spine_M",
     "sync": false
   },
@@ -3598,9 +3550,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints/ThunderJaw:IKParentConstraintRoot_M",
     "sync": false
   },
@@ -3609,9 +3559,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKJoints",
     "sync": false
   },
@@ -4006,9 +3954,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetSpine2_M/ThunderJaw:IKExtraSpine2_M/ThunderJaw:IKSpine2_M/ThunderJaw:IKSpine2LocalOrient1_M/ThunderJaw:IKSpine2LocalOrient2_M",
     "sync": false
   },
@@ -4017,9 +3963,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetSpine2_M/ThunderJaw:IKExtraSpine2_M/ThunderJaw:IKSpine2_M/ThunderJaw:IKSpine2LocalOrient1_M",
     "sync": false
   },
@@ -4028,9 +3972,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetSpine2_M/ThunderJaw:IKExtraSpine2_M/ThunderJaw:IKSpine2_M",
     "sync": false
   },
@@ -4039,9 +3981,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetSpine2_M/ThunderJaw:IKExtraSpine2_M",
     "sync": false
   },
@@ -4050,9 +3990,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetSpine2_M",
     "sync": false
   },
@@ -4508,9 +4446,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKOffsetSpine1_M/ThunderJaw:IKExtraSpine1_M/ThunderJaw:IKSpine1_M/ThunderJaw:IKSpine1LocalOrient1_M/ThunderJaw:IKSpine1LocalOrient2_M",
     "sync": false
   },
@@ -4519,9 +4455,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKOffsetSpine1_M/ThunderJaw:IKExtraSpine1_M/ThunderJaw:IKSpine1_M/ThunderJaw:IKSpine1LocalOrient1_M",
     "sync": false
   },
@@ -4530,9 +4464,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKOffsetSpine1_M/ThunderJaw:IKExtraSpine1_M/ThunderJaw:IKSpine1_M",
     "sync": false
   },
@@ -4541,9 +4473,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKOffsetSpine1_M/ThunderJaw:IKExtraSpine1_M",
     "sync": false
   },
@@ -4552,9 +4482,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKOffsetSpine1_M",
     "sync": false
   },
@@ -5455,9 +5383,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M/ThunderJaw:IKhybridSpine3_M/ThunderJaw:IKOffsetSpine3_M/ThunderJaw:IKExtraSpine3_M/ThunderJaw:IKSpine3_M/ThunderJaw:IKSpine3LocalOrient1_M/ThunderJaw:IKSpine3LocalOrient2_M",
     "sync": false
   },
@@ -5466,9 +5392,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M/ThunderJaw:IKhybridSpine3_M/ThunderJaw:IKOffsetSpine3_M/ThunderJaw:IKExtraSpine3_M/ThunderJaw:IKSpine3_M/ThunderJaw:IKSpine3LocalOrient1_M",
     "sync": false
   },
@@ -5477,9 +5401,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M/ThunderJaw:IKhybridSpine3_M/ThunderJaw:IKOffsetSpine3_M/ThunderJaw:IKExtraSpine3_M/ThunderJaw:IKSpine3_M",
     "sync": false
   },
@@ -5488,9 +5410,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M/ThunderJaw:IKhybridSpine3_M/ThunderJaw:IKOffsetSpine3_M/ThunderJaw:IKExtraSpine3_M",
     "sync": false
   },
@@ -5499,9 +5419,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M/ThunderJaw:IKhybridSpine3_M/ThunderJaw:IKOffsetSpine3_M",
     "sync": false
   },
@@ -5510,9 +5428,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M/ThunderJaw:IKhybridSpine3_M",
     "sync": false
   },
@@ -5521,9 +5437,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M/ThunderJaw:IKhybridExtraSpine3_M",
     "sync": false
   },
@@ -5532,9 +5446,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M/ThunderJaw:IKhybridOffsetSpine3_M",
     "sync": false
   },
@@ -5543,9 +5455,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M/ThunderJaw:IKhybridSpine2_M",
     "sync": false
   },
@@ -5554,9 +5464,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M/ThunderJaw:IKhybridExtraSpine2_M",
     "sync": false
   },
@@ -5565,9 +5473,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M/ThunderJaw:IKhybridOffsetSpine2_M",
     "sync": false
   },
@@ -5576,9 +5482,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M/ThunderJaw:IKhybridSpine1_M",
     "sync": false
   },
@@ -5587,9 +5491,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M/ThunderJaw:IKhybridExtraSpine1_M",
     "sync": false
   },
@@ -5598,9 +5500,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M/ThunderJaw:IKhybridFollowSpine1_M",
     "sync": false
   },
@@ -5609,9 +5509,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M/ThunderJaw:IKhybridOffsetSpine1_M",
     "sync": false
   },
@@ -5620,9 +5518,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKOffsetConstrainedSpine1_M",
     "sync": false
   },
@@ -5691,9 +5587,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle/ThunderJaw:IKScalerRoot_M",
     "sync": false
   },
@@ -5702,9 +5596,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem/ThunderJaw:IKHandle",
     "sync": false
   },
@@ -5713,9 +5605,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:IKSystem",
     "sync": false
   },
@@ -5912,9 +5802,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKIKSystem/ThunderJaw:FKIKParentConstraintSpine_M/ThunderJaw:FKIKSpine_M",
     "sync": false
   },
@@ -5923,9 +5811,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKIKSystem/ThunderJaw:FKIKParentConstraintSpine_M",
     "sync": false
   },
@@ -5934,9 +5820,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:FKIKSystem",
     "sync": false
   },
@@ -6005,9 +5889,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem/ThunderJaw:ConstraintSystem",
     "sync": false
   },
@@ -6016,9 +5898,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:MotionSystem",
     "sync": false
   },
@@ -6489,9 +6369,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Tail0_M/ThunderJaw:Tail1_M/ThunderJaw:Tail2_M/ThunderJaw:Tail3_M/ThunderJaw:Tail4_M",
     "sync": false
   },
@@ -6500,9 +6378,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Tail0_M/ThunderJaw:Tail1_M/ThunderJaw:Tail2_M/ThunderJaw:Tail3_M",
     "sync": false
   },
@@ -6511,9 +6387,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Tail0_M/ThunderJaw:Tail1_M/ThunderJaw:Tail2_M",
     "sync": false
   },
@@ -6522,9 +6396,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Tail0_M/ThunderJaw:Tail1_M",
     "sync": false
   },
@@ -6533,9 +6405,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Tail0_M",
     "sync": false
   },
@@ -6924,9 +6794,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_R/ThunderJaw:Hip_R/ThunderJaw:Knee_R/ThunderJaw:Ankle_R/ThunderJaw:Toes_R/ThunderJaw:ToesEnd_R",
     "sync": false
   },
@@ -6935,9 +6803,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_R/ThunderJaw:Hip_R/ThunderJaw:Knee_R/ThunderJaw:Ankle_R/ThunderJaw:Toes_R",
     "sync": false
   },
@@ -6946,9 +6812,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_R/ThunderJaw:Hip_R/ThunderJaw:Knee_R/ThunderJaw:Ankle_R",
     "sync": false
   },
@@ -6957,9 +6821,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_R/ThunderJaw:Hip_R/ThunderJaw:Knee_R",
     "sync": false
   },
@@ -6968,9 +6830,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_R/ThunderJaw:Hip_R",
     "sync": false
   },
@@ -6979,9 +6839,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_R",
     "sync": false
   },
@@ -7507,9 +7365,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M/ThunderJaw:Head_M/ThunderJaw:HeadEnd_M",
     "sync": false
   },
@@ -7642,9 +7498,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M/ThunderJaw:Head_M/ThunderJaw:Jaw_R/ThunderJaw:JawEnd_R",
     "sync": false
   },
@@ -7653,9 +7507,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M/ThunderJaw:Head_M/ThunderJaw:Jaw_R",
     "sync": false
   },
@@ -7788,9 +7640,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M/ThunderJaw:Head_M/ThunderJaw:Jaw_L/ThunderJaw:JawEnd_L",
     "sync": false
   },
@@ -7799,9 +7649,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M/ThunderJaw:Head_M/ThunderJaw:Jaw_L",
     "sync": false
   },
@@ -7810,9 +7658,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M/ThunderJaw:Head_M",
     "sync": false
   },
@@ -7821,9 +7667,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M/ThunderJaw:Neck4_M",
     "sync": false
   },
@@ -7832,9 +7676,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M/ThunderJaw:Neck3_M",
     "sync": false
   },
@@ -7843,9 +7685,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M/ThunderJaw:Neck2_M",
     "sync": false
   },
@@ -7854,9 +7694,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M/ThunderJaw:Neck1_M",
     "sync": false
   },
@@ -7865,9 +7703,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M/ThunderJaw:Neck0_M",
     "sync": false
   },
@@ -8405,9 +8241,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "545GD8XsZN+41wSC+cvjXe",
     "sync": false
   },
@@ -8887,9 +8721,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "dcpRjobWxN/4IFjRLbqKPn",
     "sync": false
   },
@@ -9267,9 +9099,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "42fVdfQ0pKw6tNA1hb6rXF",
     "sync": false
   },
@@ -9574,9 +9404,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "f0O1hM+QFANbm+G3lmcPml",
     "sync": false
   },
@@ -9958,9 +9786,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "b1BNNl905OOZXstTvS/esi",
     "sync": false
   },
@@ -10349,9 +10175,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "f7gnyMqxpJ2Ys3x0oKNOqa",
     "sync": false
   },
@@ -10592,9 +10416,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "d6o996oWtEnZ0ewEku3Eiw",
     "sync": false
   },
@@ -10603,9 +10425,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Chest_M",
     "sync": false
   },
@@ -10802,9 +10622,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Angten_M/ThunderJaw:Angten1_M/ThunderJaw:Angten2_M",
     "sync": false
   },
@@ -10813,9 +10631,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Angten_M/ThunderJaw:Angten1_M",
     "sync": false
   },
@@ -10824,9 +10640,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Angten_M",
     "sync": false
   },
@@ -11023,9 +10837,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Cab_R/ThunderJaw:Cab1_R/ThunderJaw:Cab2_R",
     "sync": false
   },
@@ -11034,9 +10846,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Cab_R/ThunderJaw:Cab1_R",
     "sync": false
   },
@@ -11045,9 +10855,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Cab_R",
     "sync": false
   },
@@ -11436,9 +11244,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_L/ThunderJaw:Hip_L/ThunderJaw:Knee_L/ThunderJaw:Ankle_L/ThunderJaw:Toes_L/ThunderJaw:ToesEnd_L",
     "sync": false
   },
@@ -11447,9 +11253,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_L/ThunderJaw:Hip_L/ThunderJaw:Knee_L/ThunderJaw:Ankle_L/ThunderJaw:Toes_L",
     "sync": false
   },
@@ -11458,9 +11262,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_L/ThunderJaw:Hip_L/ThunderJaw:Knee_L/ThunderJaw:Ankle_L",
     "sync": false
   },
@@ -11469,9 +11271,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_L/ThunderJaw:Hip_L/ThunderJaw:Knee_L",
     "sync": false
   },
@@ -11480,9 +11280,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_L/ThunderJaw:Hip_L",
     "sync": false
   },
@@ -11491,9 +11289,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Rump_L",
     "sync": false
   },
@@ -11690,9 +11486,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Cab_L/ThunderJaw:Cab1_L/ThunderJaw:Cab2_L",
     "sync": false
   },
@@ -11701,9 +11495,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Cab_L/ThunderJaw:Cab1_L",
     "sync": false
   },
@@ -11712,9 +11504,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M/ThunderJaw:Cab_L",
     "sync": false
   },
@@ -11723,9 +11513,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem/ThunderJaw:Root_M",
     "sync": false
   },
@@ -11734,9 +11522,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main/ThunderJaw:DeformationSystem",
     "sync": false
   },
@@ -11745,9 +11531,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group/ThunderJaw:Main",
     "sync": false
   },
@@ -11756,9 +11540,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "ThunderJaw:Group",
     "sync": false
   },
@@ -11770,30 +11552,10 @@
       "__id__": 37
     },
     "_enabled": true,
-    "_defaultClip": {
-      "__uuid__": "ddd4b059-4b0b-4ab4-bd13-b4703ae5beaa"
-    },
-    "_clips": [
-      {
-        "__uuid__": "ddd4b059-4b0b-4ab4-bd13-b4703ae5beaa"
-      },
-      {
-        "__uuid__": "bb6b0c34-85dd-4a98-b4fd-2f15cbddd570"
-      },
-      {
-        "__uuid__": "869f4c01-7cbc-43e7-83a0-b0e77112e824"
-      },
-      {
-        "__uuid__": "eefb7496-8a1f-4151-bc70-17c02a493162"
-      },
-      {
-        "__uuid__": "0536f1d6-b9f1-4c4c-890d-9eaa767162b7"
-      }
-    ],
+    "_defaultClip": null,
+    "_clips": [],
     "playOnLoad": true,
-    "_model": {
-      "__uuid__": "34e9b4d3-3051-419b-90e5-897f8d186e66"
-    },
+    "_model": null,
     "_id": "5d6C2iZ3tNF5Pkv7NQfROx"
   },
   {
@@ -11801,9 +11563,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "5cc0d71f-a8a5-47a9-b8b7-934f1e0ff687"
-    },
+    "asset": null,
     "fileId": "34e9b4d3-3051-419b-90e5-897f8d186e66",
     "sync": false
   },
@@ -11822,7 +11582,7 @@
         "__id__": 436
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 594
@@ -12016,22 +11776,16 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "2a0af0a2-a4d7-4efc-a835-26852e23c817"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       },
-      {
-        "__uuid__": "2a0af0a2-a4d7-4efc-a835-26852e23c817"
-      }
+      null
     ],
-    "_mesh": {
-      "__uuid__": "9984d213-093d-437f-978e-4e7a556edfd5"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "5a733af6-db7a-4a6d-b842-9321b96ede45"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 430
     },
@@ -12042,9 +11796,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Scorcher_Robot_mdl/Scorcher_Robot:Scorcher_Robot_geo",
     "sync": false
   },
@@ -12053,9 +11805,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Scorcher_Robot_mdl",
     "sync": false
   },
@@ -12931,9 +12681,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:HeadEnd_M",
     "sync": false
   },
@@ -13066,9 +12814,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_R/Scorcher_Robot:GunEnd_R",
     "sync": false
   },
@@ -13077,9 +12823,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_R",
     "sync": false
   },
@@ -13276,9 +13020,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_R/Scorcher_Robot:Jaw2_R/Scorcher_Robot:Jaw3_R",
     "sync": false
   },
@@ -13287,9 +13029,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_R/Scorcher_Robot:Jaw2_R",
     "sync": false
   },
@@ -13298,9 +13038,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_R",
     "sync": false
   },
@@ -13433,9 +13171,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_R/Scorcher_Robot:Tail2_R",
     "sync": false
   },
@@ -13444,9 +13180,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_R",
     "sync": false
   },
@@ -13579,9 +13313,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_L/Scorcher_Robot:GunEnd_L",
     "sync": false
   },
@@ -13590,9 +13322,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_L",
     "sync": false
   },
@@ -13789,9 +13519,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_L/Scorcher_Robot:Jaw2_L/Scorcher_Robot:Jaw3_L",
     "sync": false
   },
@@ -13800,9 +13528,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_L/Scorcher_Robot:Jaw2_L",
     "sync": false
   },
@@ -13811,9 +13537,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_L",
     "sync": false
   },
@@ -13946,9 +13670,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_L/Scorcher_Robot:Tail2_L",
     "sync": false
   },
@@ -13957,9 +13679,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_L",
     "sync": false
   },
@@ -13968,9 +13688,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M",
     "sync": false
   },
@@ -13979,9 +13697,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M",
     "sync": false
   },
@@ -13990,9 +13706,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M",
     "sync": false
   },
@@ -14001,9 +13715,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M",
     "sync": false
   },
@@ -14012,9 +13724,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M",
     "sync": false
   },
@@ -14412,9 +14122,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:Fingers2_R",
     "sync": false
   },
@@ -14547,9 +14255,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:IndexFinger1_R/Scorcher_Robot:IndexFinger2_R",
     "sync": false
   },
@@ -14558,9 +14264,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:IndexFinger1_R",
     "sync": false
   },
@@ -14693,9 +14397,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:MiddleFinger1_R/Scorcher_Robot:MiddleFinger2_R",
     "sync": false
   },
@@ -14704,9 +14406,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:MiddleFinger1_R",
     "sync": false
   },
@@ -14839,9 +14539,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:RingFinger1_R/Scorcher_Robot:RingFinger2_R",
     "sync": false
   },
@@ -14850,9 +14548,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:RingFinger1_R",
     "sync": false
   },
@@ -14861,9 +14557,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R",
     "sync": false
   },
@@ -14872,9 +14566,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R",
     "sync": false
   },
@@ -14883,9 +14575,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R",
     "sync": false
   },
@@ -14894,9 +14584,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R",
     "sync": false
   },
@@ -14905,9 +14593,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R",
     "sync": false
   },
@@ -15040,9 +14726,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_R/Scorcher_Robot:Chest_Part2_R",
     "sync": false
   },
@@ -15051,9 +14735,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_R",
     "sync": false
   },
@@ -15186,9 +14868,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:BigGun1_M/Scorcher_Robot:BigGun2_M",
     "sync": false
   },
@@ -15197,9 +14877,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:BigGun1_M",
     "sync": false
   },
@@ -15597,9 +15275,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:Fingers2_L",
     "sync": false
   },
@@ -15732,9 +15408,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:IndexFinger1_L/Scorcher_Robot:IndexFinger2_L",
     "sync": false
   },
@@ -15743,9 +15417,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:IndexFinger1_L",
     "sync": false
   },
@@ -15878,9 +15550,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:MiddleFinger1_L/Scorcher_Robot:MiddleFinger2_L",
     "sync": false
   },
@@ -15889,9 +15559,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:MiddleFinger1_L",
     "sync": false
   },
@@ -16024,9 +15692,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:RingFinger1_L/Scorcher_Robot:RingFinger2_L",
     "sync": false
   },
@@ -16035,9 +15701,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:RingFinger1_L",
     "sync": false
   },
@@ -16046,9 +15710,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L",
     "sync": false
   },
@@ -16057,9 +15719,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L",
     "sync": false
   },
@@ -16068,9 +15728,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L",
     "sync": false
   },
@@ -16079,9 +15737,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L",
     "sync": false
   },
@@ -16090,9 +15746,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L",
     "sync": false
   },
@@ -16225,9 +15879,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_L/Scorcher_Robot:Chest_Part2_L",
     "sync": false
   },
@@ -16236,9 +15888,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_L",
     "sync": false
   },
@@ -16247,9 +15897,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M",
     "sync": false
   },
@@ -16258,9 +15906,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M",
     "sync": false
   },
@@ -16269,9 +15915,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M",
     "sync": false
   },
@@ -16605,9 +16249,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:Toes2_R",
     "sync": false
   },
@@ -16740,9 +16382,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:IndexToe1_R/Scorcher_Robot:IndexToe2_R",
     "sync": false
   },
@@ -16751,9 +16391,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:IndexToe1_R",
     "sync": false
   },
@@ -16886,9 +16524,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:MiddleToe1_R/Scorcher_Robot:MiddleToe2_R",
     "sync": false
   },
@@ -16897,9 +16533,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:MiddleToe1_R",
     "sync": false
   },
@@ -17032,9 +16666,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:RingToe1_R/Scorcher_Robot:RingToe2_R",
     "sync": false
   },
@@ -17043,9 +16675,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:RingToe1_R",
     "sync": false
   },
@@ -17054,9 +16684,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R",
     "sync": false
   },
@@ -17065,9 +16693,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R",
     "sync": false
   },
@@ -17076,9 +16702,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R",
     "sync": false
   },
@@ -17087,9 +16711,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R",
     "sync": false
   },
@@ -17423,9 +17045,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:Toes2_L",
     "sync": false
   },
@@ -17558,9 +17178,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:IndexToe1_L/Scorcher_Robot:IndexToe2_L",
     "sync": false
   },
@@ -17569,9 +17187,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:IndexToe1_L",
     "sync": false
   },
@@ -17704,9 +17320,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:MiddleToe1_L/Scorcher_Robot:MiddleToe2_L",
     "sync": false
   },
@@ -17715,9 +17329,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:MiddleToe1_L",
     "sync": false
   },
@@ -17850,9 +17462,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:RingToe1_L/Scorcher_Robot:RingToe2_L",
     "sync": false
   },
@@ -17861,9 +17471,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:RingToe1_L",
     "sync": false
   },
@@ -17872,9 +17480,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L",
     "sync": false
   },
@@ -17883,9 +17489,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L",
     "sync": false
   },
@@ -17894,9 +17498,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L",
     "sync": false
   },
@@ -17905,9 +17507,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L",
     "sync": false
   },
@@ -17916,9 +17516,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M",
     "sync": false
   },
@@ -17927,9 +17525,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem",
     "sync": false
   },
@@ -17938,9 +17534,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main",
     "sync": false
   },
@@ -17949,9 +17543,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group",
     "sync": false
   },
@@ -17966,9 +17558,7 @@
     "_defaultClip": null,
     "_clips": [],
     "playOnLoad": false,
-    "_model": {
-      "__uuid__": "f321855f-2219-49c1-a415-1e03a5f040e0"
-    },
+    "_model": null,
     "_id": "31TiQHgWtJQJnbLXHO6Kc1"
   },
   {
@@ -17976,9 +17566,7 @@
     "root": {
       "__id__": 430
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "f321855f-2219-49c1-a415-1e03a5f040e0",
     "sync": false
   },
@@ -40020,9 +39608,6 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
-      },
-      {
         "__uuid__": "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a"
       }
     ],
@@ -40072,9 +39657,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "e6OUHlj9dM9YHgPvohZjVI"
   },
   {
@@ -41191,9 +40774,6 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
-      },
-      {
         "__uuid__": "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a"
       }
     ],
@@ -41243,9 +40823,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "1edqF7VpVE6746bGlYFmiJ"
   },
   {
@@ -42408,9 +41986,6 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
-      },
-      {
         "__uuid__": "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a"
       }
     ],
@@ -42460,9 +42035,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "a0Pbdqh+FGVYUdQlEQJBPT"
   },
   {
@@ -43579,9 +43152,6 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
-      },
-      {
         "__uuid__": "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a"
       }
     ],
@@ -43631,9 +43201,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "efr3sraS1C5azAzaNdZuWo"
   },
   {
@@ -53341,7 +52909,7 @@
       "array": [
         0,
         0,
-        439.0748797187104,
+        367.19477120460203,
         0,
         0,
         0,
