@@ -164,7 +164,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 5,
+    "constant": 1.5,
     "multiplier": 1
   },
   {
@@ -246,7 +246,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 2,
+    "constant": 0.8,
     "multiplier": 1
   },
   {

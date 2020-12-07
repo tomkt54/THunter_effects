@@ -54,7 +54,6 @@ cc.Class({
             _bullet = cc.instantiate(this.bullet.node).getComponent(Bullet);
             //cc.log("instantiate new bullet " + _bullet.name);
         }
-        _bullet.targetPos = this.target.node.position;
         //cc.log("target pos is " + _bullet.targetPos);
 
         //set pos to bullet, and parent

@@ -1,3 +1,5 @@
+const Log = require('LogView').Log;
+
 cc.Class({
     extends: cc.Component,
 
@@ -10,17 +12,30 @@ cc.Class({
             default: null,
             type: cc.Node,
         },
+        moveV3: cc.Vec3,
     },
-
-    //set by main
-    targetPos: cc.Vec3,
 
     fight() {
         //cc.log("this bullet just fired!");
-        cc.tween(this.node)
-            .to(this.duration, { position: this.targetPos })
-            //test instantiate hit fx prefab after a delay
-            .start();
+        //try {
+            let targetpos = this.node.position.add(this.moveV3);
+/*        } catch (err) {
+            Log(err.message);
+        }*/
+
+        //Log("pos: " + this.node.position.toString());
+        //Log("target pos " + this.node.position.add(this.moveV3).toString());
+
+        //try {
+            cc.tween(this.node)
+                .to(this.duration, { position: targetpos })
+                //test instantiate hit fx prefab after a delay
+                .start();
+/*        } catch (err) {
+            Log(err.message);
+        }*/
+        
+
         //spawn hitfx
         cc.tween(this.node)
             .delay(this.duration)
