@@ -8,13 +8,13 @@
   "subMetas": {
     "buffer.bin": {
       "ver": "1.0.0",
-      "uuid": "985f5319-5a4b-47d6-92dc-51a53f19771a",
+      "uuid": "f36173f9-f021-4dba-b78f-c9d5b98da931",
       "name": "buffer.bin",
       "subMetas": {}
     },
     "Land_geo.mesh": {
       "ver": "1.0.1",
-      "uuid": "274c2f67-96ec-41c1-9fe0-32bc94582126",
+      "uuid": "57efaf67-eeb0-4f71-bfa7-5a71152fb3a7",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -38,37 +38,11 @@
       "name": "Land_geo.mesh",
       "subMetas": {}
     },
-    "Sky_geo.mesh": {
-      "ver": "1.0.1",
-      "uuid": "34fc99e9-65fc-4589-b9bb-bf903ad30429",
-      "verts": 6,
-      "tris": 4,
-      "submeshes": 1,
-      "attributes": [
-        [
-          "a_normal",
-          "a_position",
-          "a_uv0"
-        ]
-      ],
-      "minPos": {
-        "x": -90.3869781494141,
-        "y": -38.128833770752,
-        "z": -74.5503540039063
-      },
-      "maxPos": {
-        "x": 98.9031219482422,
-        "y": 44.3524017333984,
-        "z": -68.5420379638672
-      },
-      "name": "Sky_geo.mesh",
-      "subMetas": {}
-    },
     "rock01_geo.mesh": {
       "ver": "1.0.1",
-      "uuid": "bb444bac-6677-4032-bc22-bd4cea58ea7a",
-      "verts": 6000,
-      "tris": 5767,
+      "uuid": "47391438-58fa-46c0-b7e4-0bd7f6bf25fc",
+      "verts": 4772,
+      "tris": 3037,
       "submeshes": 1,
       "attributes": [
         [
@@ -78,49 +52,23 @@
         ]
       ],
       "minPos": {
-        "x": -60.6197853088379,
-        "y": -3.09833478927612,
-        "z": -55.9337844848633
+        "x": -61.5499496459961,
+        "y": -3.73469495773315,
+        "z": -58.3336029052734
       },
       "maxPos": {
-        "x": 38.5121994018555,
-        "y": 12.9807548522949,
+        "x": 38.5864181518555,
+        "y": 12.8466033935547,
         "z": 47.9918251037598
       },
       "name": "rock01_geo.mesh",
       "subMetas": {}
     },
-    "rock02_geo.mesh": {
-      "ver": "1.0.1",
-      "uuid": "746e390d-9e54-4638-a750-14b268e184ff",
-      "verts": 2554,
-      "tris": 3210,
-      "submeshes": 1,
-      "attributes": [
-        [
-          "a_normal",
-          "a_position",
-          "a_uv0"
-        ]
-      ],
-      "minPos": {
-        "x": -54.9723815917969,
-        "y": -4.64070558547974,
-        "z": -38.663257598877
-      },
-      "maxPos": {
-        "x": 47.9389190673828,
-        "y": 16.6953716278076,
-        "z": 46.1816062927246
-      },
-      "name": "rock02_geo.mesh",
-      "subMetas": {}
-    },
     "rock03_geo.mesh": {
       "ver": "1.0.1",
-      "uuid": "6d904611-4c49-441f-b513-8405ab593c6a",
-      "verts": 456,
-      "tris": 552,
+      "uuid": "2c2cc2ac-6b13-49c8-9ad2-c2f516ff17b9",
+      "verts": 269,
+      "tris": 315,
       "submeshes": 1,
       "attributes": [
         [
@@ -131,22 +79,22 @@
       ],
       "minPos": {
         "x": -41.6745529174805,
-        "y": -3.4639265537262,
+        "y": -0.22222526371479,
         "z": -7.90223550796509
       },
       "maxPos": {
-        "x": -28.6627998352051,
-        "y": 5.05689668655396,
-        "z": 3.20790243148804
+        "x": -29.5773372650146,
+        "y": 5.05689716339111,
+        "z": 2.90494775772095
       },
       "name": "rock03_geo.mesh",
       "subMetas": {}
     },
-    "rock05_geo.mesh": {
+    "rock02_geo.mesh": {
       "ver": "1.0.1",
-      "uuid": "cc7b5f8e-a380-47e8-89f1-dc5d258cf6be",
-      "verts": 2151,
-      "tris": 2925,
+      "uuid": "bcc2523f-57e7-4003-8d43-b38e895bf097",
+      "verts": 2744,
+      "tris": 1771,
       "submeshes": 1,
       "attributes": [
         [
@@ -156,21 +104,73 @@
         ]
       ],
       "minPos": {
-        "x": -49.8033256530762,
-        "y": -2.80956411361694,
-        "z": 3.76122546195984
+        "x": -55.1838073730469,
+        "y": -8.24588394165039,
+        "z": -38.663257598877
       },
       "maxPos": {
-        "x": 50.8943939208984,
-        "y": 17.8934135437012,
-        "z": 40.521728515625
+        "x": 53.1019973754883,
+        "y": 16.5061473846436,
+        "z": 46.6125984191895
+      },
+      "name": "rock02_geo.mesh",
+      "subMetas": {}
+    },
+    "rock05_geo.mesh": {
+      "ver": "1.0.1",
+      "uuid": "6b697908-b829-415c-bc59-5f9171042402",
+      "verts": 2349,
+      "tris": 1833,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -49.7589645385742,
+        "y": -0.414062857627869,
+        "z": 3.68949246406555
+      },
+      "maxPos": {
+        "x": 50.861888885498,
+        "y": 17.7780895233154,
+        "z": 41.905029296875
       },
       "name": "rock05_geo.mesh",
       "subMetas": {}
     },
+    "Sky_geo.mesh": {
+      "ver": "1.0.1",
+      "uuid": "6fb0062e-c5b0-4f01-a67b-98107b0a6ebe",
+      "verts": 4,
+      "tris": 2,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -109.028541564941,
+        "y": -12.4034862518311,
+        "z": -74.5397567749023
+      },
+      "maxPos": {
+        "x": 84.904296875,
+        "y": 75.4064865112305,
+        "z": -56.7342071533203
+      },
+      "name": "Sky_geo.mesh",
+      "subMetas": {}
+    },
     "Env_Savan.prefab": {
       "ver": "1.2.7",
-      "uuid": "3af29056-58bd-4a5c-a221-e80eacdba641",
+      "uuid": "794b2a9e-043d-488a-84f7-cd8f65bca90f",
       "optimizationPolicy": "AUTO",
       "asyncLoadAssets": false,
       "readonly": true,
@@ -288,44 +288,44 @@
     },
     "Land_mtl.mtl": {
       "ver": "1.0.3",
-      "uuid": "32d3f651-b1dd-45b1-ace8-23d8dcfe49e5",
+      "uuid": "a4b618ec-bb1b-4e4d-ba0e-53c10e4193cc",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"5cd31900-1bd5-48ba-8c05-b82a3fca8247\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
       "name": "Land_mtl.mtl",
       "subMetas": {}
     },
-    "Sky_mtl.mtl": {
-      "ver": "1.0.3",
-      "uuid": "9c8d3d32-49cf-430a-9aa1-6bf12dbac041",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"7db7e704-2d2e-49f1-ae30-8ab874c7fb3b\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
-      "name": "Sky_mtl.mtl",
-      "subMetas": {}
-    },
     "Rock01_mtl.mtl": {
       "ver": "1.0.3",
-      "uuid": "c8b9902a-75b0-4250-b824-5f2f82393c47",
+      "uuid": "9f446b75-84a0-4e2d-b14b-9979ffd326f0",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"24b55ebe-167a-4b19-86fe-48533f1a34b5\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
       "name": "Rock01_mtl.mtl",
       "subMetas": {}
     },
+    "Rock03_mtl.mtl": {
+      "ver": "1.0.3",
+      "uuid": "ce8fd63e-704a-423b-a7e5-7725dfaadd5a",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseTexture\": {\n          \"__uuid__\": \"d8a4ec4e-9e1f-4db8-ac64-6caf99fe8932\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
+      "name": "Rock03_mtl.mtl",
+      "subMetas": {}
+    },
     "Rock02_mtl.mtl": {
       "ver": "1.0.3",
-      "uuid": "f041b60c-35fa-41c5-b61b-c5471f0fb694",
+      "uuid": "63baada6-be86-4176-88b2-2b7a656705b5",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"78a28a58-ebab-47ba-8983-37a618fb5f75\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
       "name": "Rock02_mtl.mtl",
       "subMetas": {}
     },
-    "Rock03_mtl.mtl": {
-      "ver": "1.0.3",
-      "uuid": "8c496517-70c5-461a-9030-2f94a3d44d1d",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"d8a4ec4e-9e1f-4db8-ac64-6caf99fe8932\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
-      "name": "Rock03_mtl.mtl",
-      "subMetas": {}
-    },
     "Rock05_mtl.mtl": {
       "ver": "1.0.3",
-      "uuid": "28e7e7ed-f8ac-4c1f-80ce-31b0f2d5c380",
+      "uuid": "e5c0c01b-87d4-4969-9af6-c339e4371a9a",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"f1ce3b87-048f-4254-bafe-19996c4542ad\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
       "name": "Rock05_mtl.mtl",
+      "subMetas": {}
+    },
+    "Sky_mtl.mtl": {
+      "ver": "1.0.3",
+      "uuid": "8b6677b4-3cd9-4122-93c5-5232c554a8d5",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"7db7e704-2d2e-49f1-ae30-8ab874c7fb3b\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
+      "name": "Sky_mtl.mtl",
       "subMetas": {}
     }
   }

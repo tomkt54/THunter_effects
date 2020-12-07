@@ -1,6 +1,6 @@
 {
   "ver": "1.1.0",
-  "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0",
+  "uuid": "77742687-f74c-42b2-8daf-86c46c32125d",
   "scaleFactor": 1,
   "boneCount": 0,
   "precomputeJointMatrix": false,
@@ -8,15 +8,15 @@
   "subMetas": {
     "buffer.bin": {
       "ver": "1.0.0",
-      "uuid": "6b5ae180-8e7d-4c58-9523-5fd68de6ca81",
+      "uuid": "72ffa3f5-c757-4902-b541-5e8e8943f164",
       "name": "buffer.bin",
       "subMetas": {}
     },
-    "StonePedestal_geo.mesh": {
+    "bullet.mesh": {
       "ver": "1.0.1",
-      "uuid": "9128637b-a177-40d9-9128-a0cbb9a13028",
-      "verts": 187,
-      "tris": 126,
+      "uuid": "cf6ca627-2531-4db4-a134-9164be432f19",
+      "verts": 20,
+      "tris": 16,
       "submeshes": 1,
       "attributes": [
         [
@@ -26,21 +26,21 @@
         ]
       ],
       "minPos": {
-        "x": -6.74636650085449,
-        "y": 11.0291719436646,
-        "z": -80.7536697387695
+        "x": -0.625,
+        "y": -0.625,
+        "z": -9.28540897369385
       },
       "maxPos": {
-        "x": 7.03068876266479,
-        "y": 13.6881198883057,
-        "z": -75.6869888305664
+        "x": 0.625,
+        "y": 0.625,
+        "z": 10.6313381195068
       },
-      "name": "StonePedestal_geo.mesh",
+      "name": "bullet.mesh",
       "subMetas": {}
     },
-    "StonePedestal.prefab": {
+    "bullet.prefab": {
       "ver": "1.2.7",
-      "uuid": "1f7a774e-8b87-463a-b2d3-0bccafe5ac9d",
+      "uuid": "b12bdf47-edbd-4b48-8c1d-4c12feb1addc",
       "optimizationPolicy": "AUTO",
       "asyncLoadAssets": false,
       "readonly": true,
@@ -153,14 +153,14 @@
           "fileId": "d7118yAG5lKybkFOAh8koPL"
         }
       ],
-      "name": "StonePedestal.prefab",
+      "name": "bullet.prefab",
       "subMetas": {}
     },
-    "Rock05_mtl.mtl": {
+    "Material.mtl": {
       "ver": "1.0.3",
-      "uuid": "0380d684-cb27-4293-9053-6edb1a9ee468",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"f1ce3b87-048f-4254-bafe-19996c4542ad\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
-      "name": "Rock05_mtl.mtl",
+      "uuid": "2b6e9d62-e670-468d-b122-059b198d5f4c",
+      "dataAsSubAsset": null,
+      "name": "Material.mtl",
       "subMetas": {}
     }
   }

@@ -5,7 +5,7 @@
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
-  "genMipmaps": true,
+  "genMipmaps": false,
   "packable": true,
   "width": 1024,
   "height": 1024,
@@ -13,7 +13,7 @@
   "subMetas": {
     "Rock03": {
       "ver": "1.0.4",
-      "uuid": "786b7415-7023-4777-a493-d5d1b93bd413",
+      "uuid": "9cb7afa4-c6e8-445e-8fa5-4943a27bb08e",
       "rawTextureUuid": "d8a4ec4e-9e1f-4db8-ac64-6caf99fe8932",
       "trimType": "auto",
       "trimThreshold": 1,

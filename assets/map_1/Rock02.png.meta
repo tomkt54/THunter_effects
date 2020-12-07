@@ -5,7 +5,7 @@
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
-  "genMipmaps": true,
+  "genMipmaps": false,
   "packable": true,
   "width": 1024,
   "height": 1024,
@@ -13,7 +13,7 @@
   "subMetas": {
     "Rock02": {
       "ver": "1.0.4",
-      "uuid": "a7b11bfc-abdc-439a-b83c-94f08b1c5317",
+      "uuid": "73af40df-71e2-4d1b-b01e-22a5fdea5562",
       "rawTextureUuid": "78a28a58-ebab-47ba-8983-37a618fb5f75",
       "trimType": "auto",
       "trimThreshold": 1,
