@@ -7,11 +7,11 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 2048,
-  "height": 2048,
+  "width": 256,
+  "height": 256,
   "platformSettings": {},
   "subMetas": {
-    "armor parts": {
+    "armor parts_2x2": {
       "ver": "1.0.4",
       "uuid": "233426ed-df9e-4c31-8e8c-17acf5cff519",
       "rawTextureUuid": "2f78a4dc-53ea-4798-88f6-2dac07121be5",
