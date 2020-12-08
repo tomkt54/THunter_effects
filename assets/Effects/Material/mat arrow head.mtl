@@ -1,21 +1,30 @@
 {
   "__type__": "cc.Material",
-  "_name": "mat laser hit - 001",
+  "_name": "mat arrow head",
   "_objFlags": 0,
   "_native": "",
   "_effectAsset": {
-    "__uuid__": "829a282c-b049-4019-bd38-5ace8d8a6417"
+    "__uuid__": "6d91e591-4ce0-465c-809f-610ec95019c6"
   },
   "_techniqueIndex": 0,
   "_techniqueData": {
     "0": {
       "props": {
-        "mainTexture": {
+        "diffuseColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 245,
+          "b": 202,
+          "a": 255
+        },
+        "diffuseTexture": {
           "__uuid__": "96c4741e-3782-4935-9f29-b6db8e265f5e"
         }
       },
       "defines": {
-        "OUTPUT_TO_GAMMA": false
+        "OUTPUT_TO_GAMMA": false,
+        "USE_DIFFUSE_TEXTURE": false,
+        "USE_ALPHA_TEST": false
       }
     }
   }
