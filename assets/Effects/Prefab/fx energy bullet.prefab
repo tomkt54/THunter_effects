@@ -73,8 +73,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": ""
   },
   {
@@ -169,7 +169,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "85ab7370-5a8f-47ec-866e-b33bfad559c8"
     },
     "fileId": "1cS20ZTd9MoLkGCpCYYVT4",
     "sync": false
@@ -316,7 +316,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "85ab7370-5a8f-47ec-866e-b33bfad559c8"
     },
     "fileId": "8dGUUvOfFOmqe+/vG5ciOx",
     "sync": false
