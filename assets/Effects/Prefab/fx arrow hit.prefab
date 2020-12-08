@@ -82,7 +82,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "spark",
+    "_name": "spark small",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -316,8 +316,8 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.3,
-    "constantMax": 0.5,
+    "constantMin": 0.15,
+    "constantMax": 0.2,
     "multiplier": 1
   },
   {
@@ -565,7 +565,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "spark light",
+    "_name": "spark burst",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -722,8 +722,8 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 5,
-    "constantMax": 7,
+    "constantMin": 2,
+    "constantMax": 4,
     "multiplier": 1
   },
   {
@@ -1065,8 +1065,8 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 2.5,
-    "constantMax": 3,
+    "constantMin": 1.2,
+    "constantMax": 1.7,
     "multiplier": 1
   },
   {
