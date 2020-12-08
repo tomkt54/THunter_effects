@@ -19,6 +19,7 @@ cc.Class({
             default: 1,
             type: cc.Float,
         },
+        hideMesh:cc.Node,
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching
@@ -50,6 +51,12 @@ cc.Class({
 */        let targetPos = this.node.position.add(this.v3Target);//.add(ran);
         cc.tween(this.node)
             .to(this.duration, { position: targetPos })
+            .call(() => {
+                if (this.hideMesh) {
+                    let p = this.hideMesh.getComponent(cc.ParticleSystem3D);
+                    p.stop();
+                }
+            })
             .start();
     }
 

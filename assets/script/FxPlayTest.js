@@ -41,6 +41,7 @@ cc.Class({
             type: Map,
             visible: false,
         },
+        testSequence:false,
         sequenceKey: {
             default: 1,
             type: cc.Integer,
@@ -134,39 +135,43 @@ cc.Class({
 
     onKeyUp(event) {
         //Log("pressed " + event.keyCode);
-        let arg = keyMap.get(event.keyCode);
-        if (arg>=0) {
-            //Log("play fx " + arg);
-            this.playParticle(arg);
-        }
-
-        let animarg = animMap.get(event.keyCode);
-        if (animarg) {
-            //Log("play anim " + animarg);
-            var animState = this.animator.play(animarg);
-            if (animarg != "Idle") {
+        if (this.testSequence) {
+            //sequence
+            if (event.keyCode == this.sequenceKey) {
+                var animState = this.animator.play(this.sequenceAnim);
                 animState.wrapMode = cc.WrapMode.Normal;
+
+                for (seq of this.sequence) {
+                    //Log(seq.toString() + " x=" + seq.x + " y=" + seq.y);
+                    let _seq = seq;
+                    cc.tween(this.node)
+                        .delay(_seq.y)
+                        .call(() => {
+                            //play fx by id
+                            this.playParticle(_seq.x);
+                            //Log("play particle " + _seq.x + " " + this.particles[_seq.x].name + " after " + _seq.y);
+                        })
+                        .start();
+                }
+            }
+
+        } else {
+            let arg = keyMap.get(event.keyCode);
+            if (arg >= 0) {
+                //Log("play fx " + arg);
+                this.playParticle(arg);
+            }
+
+            let animarg = animMap.get(event.keyCode);
+            if (animarg) {
+                //Log("play anim " + animarg);
+                var animState = this.animator.play(animarg);
+                if (animarg != "Idle") {
+                    animState.wrapMode = cc.WrapMode.Normal;
+                }
             }
         }
 
-        //sequence
-        if (event.keyCode == this.sequenceKey) {
-            var animState = this.animator.play(this.sequenceAnim);
-            animState.wrapMode = cc.WrapMode.Normal;
-
-            for (seq of this.sequence) {
-                //Log(seq.toString() + " x=" + seq.x + " y=" + seq.y);
-                let _seq = seq;
-                cc.tween(this.node)
-                    .delay(_seq.y)
-                    .call(() => {
-                        //play fx by id
-                        this.playParticle(_seq.x);
-                        //Log("play particle " + _seq.x + " " + this.particles[_seq.x].name + " after " + _seq.y);
-                    })
-                    .start();
-            }
-        }
 
         
         //cc.log(event.keyCode);
