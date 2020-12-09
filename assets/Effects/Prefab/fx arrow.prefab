@@ -89,7 +89,7 @@
         "__uuid__": "effb7985-833d-46df-a050-6f4cd45771b1"
       }
     ],
-    "duration": 1,
+    "duration": 1.5,
     "_capacity": 1,
     "loop": false,
     "playOnAwake": true,
@@ -147,7 +147,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 0.5,
+    "constant": 1.5,
     "multiplier": 1
   },
   {
