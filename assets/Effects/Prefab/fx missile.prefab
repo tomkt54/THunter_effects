@@ -27,11 +27,11 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 76
+        "__id__": 71
       }
     ],
     "_prefab": {
-      "__id__": 90
+      "__id__": 85
     },
     "_opacity": 255,
     "_color": {
@@ -527,7 +527,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 75
+      "__id__": 70
     },
     "_opacity": 255,
     "_color": {
@@ -639,9 +639,6 @@
     },
     "_textureAnimationModule": {
       "__id__": 64
-    },
-    "_trailModule": {
-      "__id__": 70
     },
     "_renderMode": 0,
     "_velocityScale": 1,
@@ -965,63 +962,6 @@
     "multiplier": 1
   },
   {
-    "__type__": "cc.TrailModule",
-    "_enable": true,
-    "mode": 0,
-    "lifeTime": {
-      "__id__": 71
-    },
-    "_minParticleDistance": 0.1,
-    "_space": 0,
-    "existWithParticles": true,
-    "textureMode": 0,
-    "widthFromParticle": true,
-    "widthRatio": {
-      "__id__": 72
-    },
-    "colorFromParticle": false,
-    "colorOverTrail": {
-      "__id__": 73
-    },
-    "colorOvertime": {
-      "__id__": 74
-    }
-  },
-  {
-    "__type__": "cc.CurveRange",
-    "mode": 0,
-    "constant": 1,
-    "multiplier": 1
-  },
-  {
-    "__type__": "cc.CurveRange",
-    "mode": 0,
-    "constant": 0,
-    "multiplier": 1
-  },
-  {
-    "__type__": "cc.GradientRange",
-    "_mode": 0,
-    "color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    }
-  },
-  {
-    "__type__": "cc.GradientRange",
-    "_mode": 0,
-    "color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    }
-  },
-  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -1053,40 +993,40 @@
     "_simulationSpace": 1,
     "simulationSpeed": 1,
     "startDelay": {
-      "__id__": 77
+      "__id__": 72
     },
     "startLifetime": {
-      "__id__": 78
+      "__id__": 73
     },
     "startColor": {
-      "__id__": 79
+      "__id__": 74
     },
     "scaleSpace": 1,
     "startSize": {
-      "__id__": 80
+      "__id__": 75
     },
     "startSpeed": {
-      "__id__": 81
+      "__id__": 76
     },
     "startRotation": {
-      "__id__": 82
+      "__id__": 77
     },
     "gravityModifier": {
-      "__id__": 83
+      "__id__": 78
     },
     "rateOverTime": {
-      "__id__": 84
+      "__id__": 79
     },
     "rateOverDistance": {
-      "__id__": 85
+      "__id__": 80
     },
     "bursts": [
       {
-        "__id__": 86
+        "__id__": 81
       }
     ],
     "_shapeModule": {
-      "__id__": 88
+      "__id__": 83
     },
     "_renderMode": 4,
     "_velocityScale": 1,
@@ -1163,7 +1103,7 @@
     "_repeatCount": 1,
     "repeatInterval": 0,
     "count": {
-      "__id__": 87
+      "__id__": 82
     }
   },
   {
@@ -1184,7 +1124,7 @@
     "arcMode": 0,
     "arcSpread": 0,
     "arcSpeed": {
-      "__id__": 89
+      "__id__": 84
     },
     "length": 5,
     "boxThickness": {
