@@ -18,7 +18,7 @@ cc.Class({
     //hitPool: cc.NodePool,
 
     start() {
-        let count = 20;
+/*        let count = 20;
         //init bullet pool
         
         let prefab = this.bullet.node;
@@ -28,7 +28,7 @@ cc.Class({
             let _bullet = cc.instantiate(prefab);
             //cc.log("instantiated new bullet " + i);
             this.bulletPool.put(_bullet);
-        }
+        }*/
 /*        //---------------------------------
         //init hit pool
         prefab = this.hit.node;
@@ -43,8 +43,11 @@ cc.Class({
 
 
 
-    Fire(){
-        //use bullet pool to fire new bullet
+    Fire() {
+
+        let _bullet = cc.instantiate(this.bullet.node).getComponent(Bullet);
+
+/*        //use bullet pool to fire new bullet
         let _bullet = null;
         //check pool has = use , else create
         if (this.bulletPool.size() > 0) {
@@ -53,7 +56,7 @@ cc.Class({
         } else {
             _bullet = cc.instantiate(this.bullet.node).getComponent(Bullet);
             //cc.log("instantiate new bullet " + _bullet.name);
-        }
+        }*/
         //cc.log("target pos is " + _bullet.targetPos);
 
         //set pos to bullet, and parent
@@ -66,13 +69,13 @@ cc.Class({
         _bullet.fight();
 
         //return to pool after 2 sec
-        cc.tween(this.node)
+/*        cc.tween(this.node)
             .delay(this.returnToPool)
             .call(() => {
                 this.bulletPool.put(node);
                 //cc.log("return bullet to pool, current obj count is " + this.bulletPool.size());
             })
-            .start();
+            .start();*/
         //cc.log("used bullet pool, current pool count is " + this.bulletPool.size());
 
 

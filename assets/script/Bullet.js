@@ -54,6 +54,16 @@ cc.Class({
                 //set to current position of _bullet
                 _hitfx.setPosition(this.node.position);
 
+                //destroy after 0.5 sec after hit target
+                cc.tween(this.node)
+                    .delay(0.5)
+                    .call(() => {
+                        this.node.destroy();
+                        //particleSystemCount--;
+                        //Log("destroy particle system, count=" + particleSystemCount);
+                    })
+                    .start();
+
                 //hide obj if there is
                 if (this.hideObj) this.hideObj.active = false;
 

@@ -105,16 +105,6 @@ cc.Class({
 
         //Log("instantiate new particle system, count=" + particleSystemCount);
 
-        //destroy after 4 sec
-        cc.tween(par)
-            .delay(4)
-            .call(() => {
-                par.destroy();
-                //particleSystemCount--;
-                //Log("destroy particle system, count=" + particleSystemCount);
-            })
-            .start();
-
         // myParticle.play();
     },
 

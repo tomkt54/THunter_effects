@@ -28,7 +28,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 49
+      "__id__": 53
     },
     "_opacity": 255,
     "_color": {
@@ -143,7 +143,7 @@
   },
   {
     "__type__": "cc.ParticleSystem3D",
-    "_name": "",
+    "_name": "fire trail<ParticleSystem3D>",
     "_objFlags": 0,
     "node": {
       "__id__": 2
@@ -445,7 +445,7 @@
   },
   {
     "__type__": "cc.ParticleSystem3D",
-    "_name": "",
+    "_name": "fx fire arrow<ParticleSystem3D>",
     "_objFlags": 0,
     "node": {
       "__id__": 1
@@ -492,13 +492,12 @@
     "rateOverDistance": {
       "__id__": 42
     },
-    "bursts": [
-      {
-        "__id__": 43
-      }
-    ],
+    "bursts": [],
+    "_colorOverLifetimeModule": {
+      "__id__": 43
+    },
     "_textureAnimationModule": {
-      "__id__": 45
+      "__id__": 49
     },
     "_renderMode": 1,
     "_velocityScale": 0,
@@ -515,7 +514,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 1.5,
+    "constant": 0.5,
     "multiplier": 1
   },
   {
@@ -562,25 +561,53 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 0,
+    "constant": 5,
     "multiplier": 1
   },
   {
-    "__type__": "cc.Burst",
-    "_time": 0,
-    "minCount": 30,
-    "maxCount": 30,
-    "_repeatCount": 1,
-    "repeatInterval": 1,
-    "count": {
+    "__type__": "cc.ColorOvertimeModule",
+    "enable": true,
+    "color": {
       "__id__": 44
     }
   },
   {
-    "__type__": "cc.CurveRange",
-    "mode": 0,
-    "constant": 1,
-    "multiplier": 1
+    "__type__": "cc.GradientRange",
+    "_mode": 1,
+    "gradient": {
+      "__id__": 45
+    }
+  },
+  {
+    "__type__": "cc.Gradient",
+    "colorKeys": [],
+    "alphaKeys": [
+      {
+        "__id__": 46
+      },
+      {
+        "__id__": 47
+      },
+      {
+        "__id__": 48
+      }
+    ],
+    "mode": 0
+  },
+  {
+    "__type__": "cc.AlphaKey",
+    "alpha": 0,
+    "time": 0
+  },
+  {
+    "__type__": "cc.AlphaKey",
+    "alpha": 255,
+    "time": 0.23863636363636365
+  },
+  {
+    "__type__": "cc.AlphaKey",
+    "alpha": 0,
+    "time": 1
   },
   {
     "__type__": "cc.TextureAnimationModule",
@@ -592,10 +619,10 @@
     "randomRow": false,
     "rowIndex": 0,
     "frameOverTime": {
-      "__id__": 46
+      "__id__": 50
     },
     "startFrame": {
-      "__id__": 48
+      "__id__": 52
     },
     "cycleCount": 1
   },
@@ -603,7 +630,7 @@
     "__type__": "cc.CurveRange",
     "mode": 1,
     "curve": {
-      "__id__": 47
+      "__id__": 51
     },
     "multiplier": 1
   },
