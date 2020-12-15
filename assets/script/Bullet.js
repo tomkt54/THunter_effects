@@ -31,13 +31,28 @@ cc.Class({
         //Log("target pos " + this.node.position.add(this.moveV3).toString());
 
         //try {
-            cc.tween(this.node)
-                .to(this.duration, { position: targetpos })
-                //test instantiate hit fx prefab after a delay
-                .start();
+            //this.node.position = new cc.Vec3(0, 5, 55);
+            
+            // cc.tween(this.node)
+            //     .to(this.duration, { position:targetpos })
+            //     //test instantiate hit fx prefab after a delay
+            //     .start();
+            
+           
 /*        } catch (err) {
             Log(err.message);
         }*/
+
+        // for curve moving ------------------------
+        this.node.position = new cc.Vec3(-20, 3, 55);
+        this.node['vx'] = this.node.position.x;
+        this.node['vy'] = this.node.position.y;
+        this.node['vz'] = this.node.position.z;
+        let dur = 1;
+        cc.tween(this.node).to(dur, {vz:-50}).start();
+        cc.tween(this.node).to(dur, {vy:0}).start();
+        cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineOutIn'}).start();
+        // -------------------------------------------
 
         if (this.hideObj) this.hideObj.active = true;
 
@@ -70,5 +85,10 @@ cc.Class({
             })
             .start();
     },
+
+    update(dt)
+    {
+        this.node.position = new cc.Vec3(this.node['vx'], this.node['vy'], this.node['vz']);
+    }
 
 });

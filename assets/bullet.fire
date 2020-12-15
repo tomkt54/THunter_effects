@@ -693,13 +693,13 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        3.227,
-        3.013,
-        27.109,
-        -0.10294044103643694,
-        -0.1726969147805622,
-        -0.01815117716075269,
-        0.9794128730990714,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         1,
         1
@@ -707,15 +707,15 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -12,
-      "y": -20,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "7bfdY543hHNbDSVY60Jgl6"
   },
   {
@@ -778,9 +778,9 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_is3DNode": true,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "748hvuRvxF3bis3UbNRqNV"
   },
   {
@@ -1759,7 +1759,7 @@
         "__id__": 203
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -2018,22 +2018,16 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "2a0af0a2-a4d7-4efc-a835-26852e23c817"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       },
-      {
-        "__uuid__": "147e03d4-a553-433c-b5cc-eb82a461d2d6"
-      }
+      null
     ],
-    "_mesh": {
-      "__uuid__": "9984d213-093d-437f-978e-4e7a556edfd5"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "5a733af6-db7a-4a6d-b842-9321b96ede45"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 37
     },
@@ -2044,9 +2038,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Scorcher_Robot_mdl/Scorcher_Robot:Scorcher_Robot_geo",
     "sync": false
   },
@@ -2055,9 +2047,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Scorcher_Robot_mdl",
     "sync": false
   },
@@ -2933,9 +2923,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:HeadEnd_M",
     "sync": false
   },
@@ -3068,9 +3056,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_R/Scorcher_Robot:GunEnd_R",
     "sync": false
   },
@@ -3079,9 +3065,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_R",
     "sync": false
   },
@@ -3278,9 +3262,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_R/Scorcher_Robot:Jaw2_R/Scorcher_Robot:Jaw3_R",
     "sync": false
   },
@@ -3289,9 +3271,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_R/Scorcher_Robot:Jaw2_R",
     "sync": false
   },
@@ -3300,9 +3280,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_R",
     "sync": false
   },
@@ -3435,9 +3413,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_R/Scorcher_Robot:Tail2_R",
     "sync": false
   },
@@ -3446,9 +3422,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_R",
     "sync": false
   },
@@ -3581,9 +3555,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_L/Scorcher_Robot:GunEnd_L",
     "sync": false
   },
@@ -3592,9 +3564,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Gun_L",
     "sync": false
   },
@@ -3791,9 +3761,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_L/Scorcher_Robot:Jaw2_L/Scorcher_Robot:Jaw3_L",
     "sync": false
   },
@@ -3802,9 +3770,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_L/Scorcher_Robot:Jaw2_L",
     "sync": false
   },
@@ -3813,9 +3779,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Jaw1_L",
     "sync": false
   },
@@ -3948,9 +3912,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_L/Scorcher_Robot:Tail2_L",
     "sync": false
   },
@@ -3959,9 +3921,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M/Scorcher_Robot:Tail1_L",
     "sync": false
   },
@@ -3970,9 +3930,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M/Scorcher_Robot:Head_M",
     "sync": false
   },
@@ -3981,9 +3939,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M/Scorcher_Robot:Neck3_M",
     "sync": false
   },
@@ -3992,9 +3948,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M/Scorcher_Robot:Neck2_M",
     "sync": false
   },
@@ -4003,9 +3957,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M/Scorcher_Robot:Neck1_M",
     "sync": false
   },
@@ -4014,9 +3966,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Neck_M",
     "sync": false
   },
@@ -4414,9 +4364,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:Fingers2_R",
     "sync": false
   },
@@ -4549,9 +4497,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:IndexFinger1_R/Scorcher_Robot:IndexFinger2_R",
     "sync": false
   },
@@ -4560,9 +4506,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:IndexFinger1_R",
     "sync": false
   },
@@ -4695,9 +4639,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:MiddleFinger1_R/Scorcher_Robot:MiddleFinger2_R",
     "sync": false
   },
@@ -4706,9 +4648,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:MiddleFinger1_R",
     "sync": false
   },
@@ -4841,9 +4781,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:RingFinger1_R/Scorcher_Robot:RingFinger2_R",
     "sync": false
   },
@@ -4852,9 +4790,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R/Scorcher_Robot:RingFinger1_R",
     "sync": false
   },
@@ -4863,9 +4799,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R/Scorcher_Robot:Fingers1_R",
     "sync": false
   },
@@ -4874,9 +4808,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R/Scorcher_Robot:Wrist_R",
     "sync": false
   },
@@ -4885,9 +4817,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R/Scorcher_Robot:Elbow_R",
     "sync": false
   },
@@ -4896,9 +4826,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R/Scorcher_Robot:Shoulder_R",
     "sync": false
   },
@@ -4907,9 +4835,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_R",
     "sync": false
   },
@@ -5042,9 +4968,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_R/Scorcher_Robot:Chest_Part2_R",
     "sync": false
   },
@@ -5053,9 +4977,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_R",
     "sync": false
   },
@@ -5188,9 +5110,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:BigGun1_M/Scorcher_Robot:BigGun2_M",
     "sync": false
   },
@@ -5199,9 +5119,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:BigGun1_M",
     "sync": false
   },
@@ -5599,9 +5517,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:Fingers2_L",
     "sync": false
   },
@@ -5734,9 +5650,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:IndexFinger1_L/Scorcher_Robot:IndexFinger2_L",
     "sync": false
   },
@@ -5745,9 +5659,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:IndexFinger1_L",
     "sync": false
   },
@@ -5880,9 +5792,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:MiddleFinger1_L/Scorcher_Robot:MiddleFinger2_L",
     "sync": false
   },
@@ -5891,9 +5801,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:MiddleFinger1_L",
     "sync": false
   },
@@ -6026,9 +5934,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:RingFinger1_L/Scorcher_Robot:RingFinger2_L",
     "sync": false
   },
@@ -6037,9 +5943,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L/Scorcher_Robot:RingFinger1_L",
     "sync": false
   },
@@ -6048,9 +5952,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L/Scorcher_Robot:Fingers1_L",
     "sync": false
   },
@@ -6059,9 +5961,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L/Scorcher_Robot:Wrist_L",
     "sync": false
   },
@@ -6070,9 +5970,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L/Scorcher_Robot:Elbow_L",
     "sync": false
   },
@@ -6081,9 +5979,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L/Scorcher_Robot:Shoulder_L",
     "sync": false
   },
@@ -6092,9 +5988,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Scapula_L",
     "sync": false
   },
@@ -6227,9 +6121,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_L/Scorcher_Robot:Chest_Part2_L",
     "sync": false
   },
@@ -6238,9 +6130,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M/Scorcher_Robot:Chest_Part1_L",
     "sync": false
   },
@@ -6249,9 +6139,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M/Scorcher_Robot:Chest_M",
     "sync": false
   },
@@ -6260,9 +6148,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M/Scorcher_Robot:Spine2_M",
     "sync": false
   },
@@ -6271,9 +6157,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Spine1_M",
     "sync": false
   },
@@ -6607,9 +6491,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:Toes2_R",
     "sync": false
   },
@@ -6742,9 +6624,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:IndexToe1_R/Scorcher_Robot:IndexToe2_R",
     "sync": false
   },
@@ -6753,9 +6633,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:IndexToe1_R",
     "sync": false
   },
@@ -6888,9 +6766,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:MiddleToe1_R/Scorcher_Robot:MiddleToe2_R",
     "sync": false
   },
@@ -6899,9 +6775,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:MiddleToe1_R",
     "sync": false
   },
@@ -7034,9 +6908,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:RingToe1_R/Scorcher_Robot:RingToe2_R",
     "sync": false
   },
@@ -7045,9 +6917,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R/Scorcher_Robot:RingToe1_R",
     "sync": false
   },
@@ -7056,9 +6926,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R/Scorcher_Robot:Toes1_R",
     "sync": false
   },
@@ -7067,9 +6935,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R/Scorcher_Robot:Ankle_R",
     "sync": false
   },
@@ -7078,9 +6944,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R/Scorcher_Robot:Knee_R",
     "sync": false
   },
@@ -7089,9 +6953,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_R",
     "sync": false
   },
@@ -7425,9 +7287,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:Toes2_L",
     "sync": false
   },
@@ -7560,9 +7420,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:IndexToe1_L/Scorcher_Robot:IndexToe2_L",
     "sync": false
   },
@@ -7571,9 +7429,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:IndexToe1_L",
     "sync": false
   },
@@ -7706,9 +7562,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:MiddleToe1_L/Scorcher_Robot:MiddleToe2_L",
     "sync": false
   },
@@ -7717,9 +7571,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:MiddleToe1_L",
     "sync": false
   },
@@ -7852,9 +7704,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:RingToe1_L/Scorcher_Robot:RingToe2_L",
     "sync": false
   },
@@ -7863,9 +7713,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L/Scorcher_Robot:RingToe1_L",
     "sync": false
   },
@@ -7874,9 +7722,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L/Scorcher_Robot:Toes1_L",
     "sync": false
   },
@@ -7885,9 +7731,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L/Scorcher_Robot:Ankle_L",
     "sync": false
   },
@@ -7896,9 +7740,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L/Scorcher_Robot:Knee_L",
     "sync": false
   },
@@ -7907,9 +7749,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M/Scorcher_Robot:Hip_L",
     "sync": false
   },
@@ -7918,9 +7758,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem/Scorcher_Robot:Root_M",
     "sync": false
   },
@@ -7929,9 +7767,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main/Scorcher_Robot:DeformationSystem",
     "sync": false
   },
@@ -7940,9 +7776,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group/Scorcher_Robot:Main",
     "sync": false
   },
@@ -7951,9 +7785,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "Scorcher_Robot:Group",
     "sync": false
   },
@@ -7968,9 +7800,7 @@
     "_defaultClip": null,
     "_clips": [],
     "playOnLoad": false,
-    "_model": {
-      "__uuid__": "f321855f-2219-49c1-a415-1e03a5f040e0"
-    },
+    "_model": null,
     "_id": "9ePMngTrJK4rEMNnM30qfJ"
   },
   {
@@ -7978,9 +7808,7 @@
     "root": {
       "__id__": 37
     },
-    "asset": {
-      "__uuid__": "0e20b54c-a1e7-4377-bf5a-af658f73e32d"
-    },
+    "asset": null,
     "fileId": "f321855f-2219-49c1-a415-1e03a5f040e0",
     "sync": false
   },
@@ -8196,19 +8024,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "e4592a04-05da-4490-94b3-56ce5e1ac2ab"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "5107a6f3-9657-444a-bbf7-cd4ecf573a37"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 203
     },
@@ -8286,19 +8110,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "32074d7a-e519-41be-a018-55605b251e0f"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "af335d03-ea3e-4e16-a849-e9841a817910"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 203
     },
@@ -8376,19 +8196,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "0e193d0c-bcd4-494c-825a-aae8757b83c1"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "ca0ee7ac-32a2-4450-b406-c2bf223b7108"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 203
     },
@@ -8466,19 +8282,15 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "c2d527a2-a3b9-4451-b1e5-30f510bdc26d"
+        "__uuid__": "2a296057-247c-4a1c-bbeb-0548b6c98650"
       }
     ],
-    "_mesh": {
-      "__uuid__": "56a1a681-676d-48e6-8ff4-96273b38a395"
-    },
+    "_mesh": null,
     "_receiveShadows": false,
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_skeleton": {
-      "__uuid__": "68c40c19-2e6b-4bc7-918c-0012cc58f2d9"
-    },
+    "_skeleton": null,
     "_rootBone": {
       "__id__": 203
     },
@@ -13988,27 +13800,10 @@
       "__id__": 203
     },
     "_enabled": true,
-    "_defaultClip": {
-      "__uuid__": "ddd4b059-4b0b-4ab4-bd13-b4703ae5beaa"
-    },
-    "_clips": [
-      {
-        "__uuid__": "ddd4b059-4b0b-4ab4-bd13-b4703ae5beaa"
-      },
-      {
-        "__uuid__": "bb6b0c34-85dd-4a98-b4fd-2f15cbddd570"
-      },
-      {
-        "__uuid__": "869f4c01-7cbc-43e7-83a0-b0e77112e824"
-      },
-      {
-        "__uuid__": "0536f1d6-b9f1-4c4c-890d-9eaa767162b7"
-      }
-    ],
+    "_defaultClip": null,
+    "_clips": [],
     "playOnLoad": true,
-    "_model": {
-      "__uuid__": "34e9b4d3-3051-419b-90e5-897f8d186e66"
-    },
+    "_model": null,
     "_id": "cdkNS2gOtJk4n5AXs1U8Eh"
   },
   {
@@ -14133,8 +13928,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "20urT0hlxELYkjODx42A+B"
   },
   {
@@ -15881,8 +15676,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "a89BwqE7RFfY2c2gY2Ajo4"
   },
   {
@@ -16771,8 +16566,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "2edfL/iLZDErNdHY6dQpsY"
   },
   {
@@ -17663,8 +17458,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "76U1BFb0BGVqVRIJ7DH5a7"
   },
   {
@@ -18967,8 +18762,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "36HKKV8kVEz4P76trJJaei"
   },
   {
@@ -19523,8 +19318,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "c4F3hBHtxF2Io5B7RY8Zve"
   },
   {
@@ -20444,8 +20239,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "19zV9790hKv72/1NVSo0j8"
   },
   {
@@ -20508,8 +20303,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "7dfoEvCGNHrqNFsECgjs/O"
   },
   {
@@ -20893,8 +20688,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "eevbbVDnFEkIUIZjU2sYhn"
   },
   {
@@ -21977,8 +21772,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "f7zQVyTVdN05v8jZpSF0lh"
   },
   {
@@ -22039,8 +21834,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "2bxkD4v0xDMoRIfEkdo7O+"
   },
   {
@@ -22299,8 +22094,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "0dFW0wwjRBbanku0cGxXk9"
   },
   {
@@ -22775,8 +22570,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "a6FwRXtQ5PjbEBzsF93sl4"
   },
   {
@@ -27305,7 +27100,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
+        "__uuid__": "432fa09c-cf03-4cff-a186-982604408a07"
       }
     ],
     "duration": 1,
@@ -27354,9 +27149,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "e6OUHlj9dM9YHgPvohZjVI"
   },
   {
@@ -28578,7 +28371,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
+        "__uuid__": "432fa09c-cf03-4cff-a186-982604408a07"
       }
     ],
     "duration": 1,
@@ -28627,9 +28420,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "2b3lmMCj9BNq/PrJrjJUQZ"
   },
   {
@@ -29851,7 +29642,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
+        "__uuid__": "432fa09c-cf03-4cff-a186-982604408a07"
       }
     ],
     "duration": 1,
@@ -29900,9 +29691,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "33bEIGvw9Ayb78Ww0YMFjb"
   },
   {
@@ -31126,7 +30915,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "f3d14108-70e4-41a9-b531-78c38fe1e3f7"
+        "__uuid__": "432fa09c-cf03-4cff-a186-982604408a07"
       }
     ],
     "duration": 1,
@@ -31175,9 +30964,7 @@
     "_renderMode": 4,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "047054ac-6c3b-42b5-b80f-b048e447a494"
-    },
+    "_mesh": null,
     "_id": "63WZCjFT1O/qAVLyvPAg1x"
   },
   {
@@ -35258,8 +35045,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "29b6GhrgpFfJ+kQiOTsBD/"
   },
   {
@@ -35320,8 +35107,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "96NO224kdJnLhG6VhgoQJW"
   },
   {
@@ -35692,8 +35479,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "44flCokJhNTbS6dsOYiQLX"
   },
   {
@@ -36744,8 +36531,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "6fMPzi+5hBqJBrhnxEaPfN"
   },
   {
@@ -36942,8 +36729,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "8fVQzTDmVI77B20oFV90VG"
   },
   {
@@ -48726,7 +48513,7 @@
       "array": [
         0,
         0,
-        439.0748797187104,
+        367.19477120460203,
         0,
         0,
         0,
