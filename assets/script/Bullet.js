@@ -19,6 +19,11 @@ cc.Class({
         },
     },
 
+    onLoad()
+    {
+        this.lastPos = null;
+    },
+
     fight() {
         //cc.log("this bullet just fired!");
         //try {
@@ -44,21 +49,22 @@ cc.Class({
         }*/
 
         // for curve moving ------------------------
-        this.node.position = new cc.Vec3(-20, 3, 55);
+        this.node.position = new cc.Vec3(-20, 3, 70);
         this.node['vx'] = this.node.position.x;
         this.node['vy'] = this.node.position.y;
         this.node['vz'] = this.node.position.z;
         let dur = 1;
         cc.tween(this.node).to(dur, {vz:-50}).start();
         cc.tween(this.node).to(dur, {vy:0}).start();
-        cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineOutIn'}).start();
+        //cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineOutIn'}).start();
+        cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineIn'}).start();
         // -------------------------------------------
 
         if (this.hideObj) this.hideObj.active = true;
 
         //spawn hitfx
         cc.tween(this.node)
-            .delay(this.duration)
+            .delay(3.0)
             .call(() => {
                 //-----------------------------------------------------------
                 //create hitfx after duration
@@ -89,6 +95,14 @@ cc.Class({
     update(dt)
     {
         this.node.position = new cc.Vec3(this.node['vx'], this.node['vy'], this.node['vz']);
+        if (this.lastPos)
+        {
+            let v = cc.Vec3.subtract(new cc.Vec3(), this.node.position, this.lastPos);
+            v.scale(new cc.Vec3(-1, -1, -1));
+            let p = cc.Vec3.add(new cc.Vec3(), this.node.position, v);
+            this.node.lookAt(p);
+        }
+        this.lastPos = this.node.position.clone();
     }
 
 });
