@@ -123,9 +123,9 @@
         1,
         0,
         6.123233995736766e-17,
-        0.7,
-        0.7,
-        5
+        0.15,
+        1,
+        0.15
       ]
     },
     "_eulerAngles": {
@@ -268,7 +268,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 1.5,
+    "constant": 1,
     "multiplier": 1
   },
   {

@@ -27,11 +27,11 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 51
+        "__id__": 45
       }
     ],
     "_prefab": {
-      "__id__": 85
+      "__id__": 79
     },
     "_opacity": 255,
     "_color": {
@@ -82,7 +82,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "electric",
+    "_name": "electric remain",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -233,8 +233,8 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 1.2,
-    "constantMax": 1.7,
+    "constantMin": 1,
+    "constantMax": 1.2,
     "multiplier": 1
   },
   {
@@ -266,7 +266,7 @@
     "__type__": "cc.CurveRange",
     "mode": 3,
     "constantMin": 0,
-    "constantMax": 0.15,
+    "constantMax": 0.1,
     "multiplier": 1
   },
   {
@@ -386,7 +386,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "electric follow",
+    "_name": "electric head",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -399,7 +399,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 50
+      "__id__": 44
     },
     "_opacity": 255,
     "_color": {
@@ -458,7 +458,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "068b1b6b-6ef9-4fa1-a800-788a0d44a4e8"
+        "__uuid__": "432fa09c-cf03-4cff-a186-982604408a07"
       },
       null
     ],
@@ -501,12 +501,9 @@
     "_colorOverLifetimeModule": {
       "__id__": 36
     },
-    "_textureAnimationModule": {
-      "__id__": 44
-    },
-    "_renderMode": 0,
+    "_renderMode": 1,
     "_velocityScale": 0,
-    "_lengthScale": 0,
+    "_lengthScale": 7,
     "_mesh": null,
     "_id": ""
   },
@@ -537,7 +534,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 3,
+    "constantMin": 1.5,
     "constantMax": 2,
     "multiplier": 1
   },
@@ -647,64 +644,6 @@
     "time": 1
   },
   {
-    "__type__": "cc.TextureAnimationModule",
-    "_enable": true,
-    "_mode": 0,
-    "numTilesX": 2,
-    "numTilesY": 2,
-    "animation": 0,
-    "randomRow": false,
-    "rowIndex": 0,
-    "frameOverTime": {
-      "__id__": 45
-    },
-    "startFrame": {
-      "__id__": 49
-    },
-    "cycleCount": 1
-  },
-  {
-    "__type__": "cc.CurveRange",
-    "mode": 1,
-    "curve": {
-      "__id__": 46
-    },
-    "multiplier": 1
-  },
-  {
-    "__type__": "cc.AnimationCurve",
-    "keyFrames": [
-      {
-        "__id__": 47
-      },
-      {
-        "__id__": 48
-      }
-    ],
-    "preWrapMode": 2,
-    "postWrapMode": 2
-  },
-  {
-    "__type__": "cc.Keyframe",
-    "time": 0,
-    "value": 0,
-    "inTangent": 1,
-    "outTangent": 1
-  },
-  {
-    "__type__": "cc.Keyframe",
-    "time": 1,
-    "value": 1,
-    "inTangent": 1,
-    "outTangent": 1
-  },
-  {
-    "__type__": "cc.CurveRange",
-    "mode": 0,
-    "constant": 0,
-    "multiplier": 1
-  },
-  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -737,46 +676,46 @@
     "_simulationSpace": 1,
     "simulationSpeed": 1,
     "startDelay": {
-      "__id__": 52
+      "__id__": 46
     },
     "startLifetime": {
-      "__id__": 53
+      "__id__": 47
     },
     "startColor": {
-      "__id__": 54
+      "__id__": 48
     },
     "scaleSpace": 1,
     "startSize": {
-      "__id__": 55
+      "__id__": 49
     },
     "startSpeed": {
-      "__id__": 56
+      "__id__": 50
     },
     "startRotation": {
-      "__id__": 57
+      "__id__": 51
     },
     "gravityModifier": {
-      "__id__": 58
+      "__id__": 52
     },
     "rateOverTime": {
-      "__id__": 59
+      "__id__": 53
     },
     "rateOverDistance": {
-      "__id__": 60
+      "__id__": 54
     },
     "bursts": [],
     "_colorOverLifetimeModule": {
-      "__id__": 61
+      "__id__": 55
     },
     "_sizeOvertimeModule": {
-      "__id__": 70
+      "__id__": 64
     },
     "_textureAnimationModule": {
-      "__id__": 79
+      "__id__": 73
     },
     "_renderMode": 1,
     "_velocityScale": 0,
-    "_lengthScale": 8,
+    "_lengthScale": 4,
     "_mesh": null,
     "_id": ""
   },
@@ -806,8 +745,8 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 3.5,
-    "constantMax": 3,
+    "constantMin": 1.5,
+    "constantMax": 2,
     "multiplier": 1
   },
   {
@@ -845,38 +784,38 @@
     "__type__": "cc.ColorOvertimeModule",
     "enable": true,
     "color": {
-      "__id__": 62
+      "__id__": 56
     }
   },
   {
     "__type__": "cc.GradientRange",
     "_mode": 1,
     "gradient": {
-      "__id__": 63
+      "__id__": 57
     }
   },
   {
     "__type__": "cc.Gradient",
     "colorKeys": [
       {
-        "__id__": 64
+        "__id__": 58
       },
       {
-        "__id__": 65
+        "__id__": 59
       }
     ],
     "alphaKeys": [
       {
-        "__id__": 66
+        "__id__": 60
       },
       {
-        "__id__": 67
+        "__id__": 61
       },
       {
-        "__id__": 68
+        "__id__": 62
       },
       {
-        "__id__": 69
+        "__id__": 63
       }
     ],
     "mode": 0
@@ -928,23 +867,23 @@
     "enable": true,
     "separateAxes": false,
     "size": {
-      "__id__": 71
+      "__id__": 65
     },
     "x": {
-      "__id__": 76
+      "__id__": 70
     },
     "y": {
-      "__id__": 77
+      "__id__": 71
     },
     "z": {
-      "__id__": 78
+      "__id__": 72
     }
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 1,
     "curve": {
-      "__id__": 72
+      "__id__": 66
     },
     "multiplier": 1
   },
@@ -952,13 +891,13 @@
     "__type__": "cc.AnimationCurve",
     "keyFrames": [
       {
-        "__id__": 73
+        "__id__": 67
       },
       {
-        "__id__": 74
+        "__id__": 68
       },
       {
-        "__id__": 75
+        "__id__": 69
       }
     ],
     "preWrapMode": 2,
@@ -1013,10 +952,10 @@
     "randomRow": false,
     "rowIndex": 0,
     "frameOverTime": {
-      "__id__": 80
+      "__id__": 74
     },
     "startFrame": {
-      "__id__": 84
+      "__id__": 78
     },
     "cycleCount": 1
   },
@@ -1024,7 +963,7 @@
     "__type__": "cc.CurveRange",
     "mode": 1,
     "curve": {
-      "__id__": 81
+      "__id__": 75
     },
     "multiplier": 1
   },
@@ -1032,10 +971,10 @@
     "__type__": "cc.AnimationCurve",
     "keyFrames": [
       {
-        "__id__": 82
+        "__id__": 76
       },
       {
-        "__id__": 83
+        "__id__": 77
       }
     ],
     "preWrapMode": 2,
