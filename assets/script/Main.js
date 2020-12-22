@@ -1,4 +1,7 @@
 const Bullet = require('Bullet');
+//const math = require('cocos/core/math/utils.ts');
+
+
 cc.Class({
     extends: cc.Component,
 
@@ -11,7 +14,9 @@ cc.Class({
             default: null,
             type: cc.Component,
         },
-        returnToPool :cc.Float,
+        returnToPool: cc.Float,
+        positionRandomLow: cc.Vec3,
+        positionRandomHigh: cc.Vec3,
     },
 
     bulletPool: cc.NodePool,
@@ -62,7 +67,13 @@ cc.Class({
         //set pos to bullet, and parent
         let node = _bullet.node;
         node.parent = this.bullet.node.parent;
-        node.setPosition(this.bullet.node.position);
+
+        let randomPos = new cc.Vec3(cc.math.randomRange(this.positionRandomLow.x, this.positionRandomHigh.x),
+            cc.math.randomRange(this.positionRandomLow.y, this.positionRandomHigh.y),
+            cc.math.randomRange(this.positionRandomLow.x, this.positionRandomHigh.z));
+
+
+        node.setPosition(this.bullet.node.position.add(randomPos));
 
         //set off the bullet
         //cc.log("fire bullet " + _bullet.name);

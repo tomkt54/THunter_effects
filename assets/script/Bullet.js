@@ -21,13 +21,13 @@ cc.Class({
 
     onLoad()
     {
-        this.lastPos = null;
+        this.lastPos = this.node.position;
     },
 
     fight() {
         //cc.log("this bullet just fired!");
         //try {
-            let targetpos = this.node.position.add(this.moveV3);
+            //let targetpos = this.node.position.add(this.moveV3);
 /*        } catch (err) {
             Log(err.message);
         }*/
@@ -49,22 +49,33 @@ cc.Class({
         }*/
 
         // for curve moving ------------------------
-        this.node.position = new cc.Vec3(-20, 3, 70);
+
         this.node['vx'] = this.node.position.x;
         this.node['vy'] = this.node.position.y;
         this.node['vz'] = this.node.position.z;
-        let dur = 1;
-        cc.tween(this.node).to(dur, {vz:-50}).start();
+        let dur = 0.8;
+        let durhalf = dur/2;
         cc.tween(this.node).to(dur, {vy:0}).start();
         //cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineOutIn'}).start();
-        cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineIn'}).start();
+        //up 
+        let up = cc.math.randomRange(10, 20);
+        let horizon = cc.math.randomRange(-30,30);
+        let far = cc.math.randomRange(-30, -20);
+        cc.tween(this.node).to(durhalf, { vy: up }, { easing: 'sineOut' }).start();
+        //down
+        cc.tween(this.node).delay(durhalf).to(durhalf, { vy: 0 }, { easing: 'sineIn' }).start();
+        //forward
+        cc.tween(this.node).to(dur, { vz: far }).start();
+        cc.tween(this.node).to(dur, { vx: horizon }).start();
+
+
         // -------------------------------------------
 
         if (this.hideObj) this.hideObj.active = true;
-
+        //at target
         //spawn hitfx
         cc.tween(this.node)
-            .delay(3.0)
+            .delay(dur)
             .call(() => {
                 //-----------------------------------------------------------
                 //create hitfx after duration
@@ -94,6 +105,8 @@ cc.Class({
 
     update(dt)
     {
+        if (this.node['vx'] === undefined) return;
+
         this.node.position = new cc.Vec3(this.node['vx'], this.node['vy'], this.node['vz']);
         if (this.lastPos)
         {
