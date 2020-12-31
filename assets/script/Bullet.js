@@ -1,4 +1,3 @@
-const Log = require('LogView').Log;
 
 cc.Class({
     extends: cc.Component,
@@ -57,10 +56,13 @@ cc.Class({
         let durhalf = dur/2;
         cc.tween(this.node).to(dur, {vy:0}).start();
         //cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineOutIn'}).start();
-        //up 
-        let up = cc.math.randomRange(10, 20);
-        let horizon = cc.math.randomRange(-30,30);
+
+        //random target pos
+        let horizon = cc.math.randomRange(-30, 30);
         let far = cc.math.randomRange(-30, -20);
+
+        //up 
+        let up = cc.math.randomRange(10, 15);
         cc.tween(this.node).to(durhalf, { vy: up }, { easing: 'sineOut' }).start();
         //down
         cc.tween(this.node).delay(durhalf).to(durhalf, { vy: 0 }, { easing: 'sineIn' }).start();
@@ -110,10 +112,19 @@ cc.Class({
         this.node.position = new cc.Vec3(this.node['vx'], this.node['vy'], this.node['vz']);
         if (this.lastPos)
         {
-            let v = cc.Vec3.subtract(new cc.Vec3(), this.node.position, this.lastPos);
+            //get dir = curPos - lastPos >> dir x-1 >> lookDir = curPos + dir >> node lookAt using lookDir
+/*            let v = cc.Vec3.subtract(new cc.Vec3(), this.node.position, this.lastPos);
             v.scale(new cc.Vec3(-1, -1, -1));
             let p = cc.Vec3.add(new cc.Vec3(), this.node.position, v);
-            this.node.lookAt(p);
+            this.node.lookAt(p);*/
+
+            //get dir = curPos - lastPos >> x-1 >> new quat from view up using dir >> set rotation.
+            let curPos = this.node.position.clone();
+            let dir = curPos.subtract(this.lastPos).normalize();
+            let quat = new cc.Quat();
+            cc.Quat.fromViewUp(quat, dir, new cc.Vec3(-1, 0, 0));
+            this.node.setRotation(quat);
+
         }
         this.lastPos = this.node.position.clone();
     }
