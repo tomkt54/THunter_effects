@@ -11,18 +11,54 @@ cc.Class({
             default: null,
             type: cc.Node,
         },
-        moveV3: cc.Vec3,
+        //moveV3: cc.Vec3,
         hideObj: {
             default: null,
             type: cc.Node,
         },
+        arc: {
+            default: false,
+        },
     },
+
+    targetPos: cc.Vec3,
 
     onLoad()
     {
         this.lastPos = this.node.position;
     },
 
+    initBeforeFlying() {
+        //cc.log('init before flying');
+
+        let v3 = this.node.position.clone();
+        //cc.log(v3);
+
+        this.node['vx'] = v3.x;
+        this.node['vy'] = v3.y;
+        this.node['vz'] = v3.z;
+    },
+
+    flyToTarget() {
+        cc.log('fly to target');
+
+        // for curve moving ------------------------
+
+        this.initBeforeFlying();
+        let dur = this.duration;
+
+        cc.tween(this.node).to(dur, { vx: this.targetPos.x }).start();
+        cc.tween(this.node).to(dur, { vy: this.targetPos.y }).start();
+        cc.tween(this.node).to(dur, { vz: this.targetPos.z }).start();
+
+        // -------------------------------------------
+
+        if (this.hideObj) this.hideObj.active = true;
+
+        this.scheduleSpawnHitFx();
+    },
+
+    //fly random
     fight() {
         //cc.log("this bullet just fired!");
         //try {
@@ -49,11 +85,10 @@ cc.Class({
 
         // for curve moving ------------------------
 
-        this.node['vx'] = this.node.position.x;
-        this.node['vy'] = this.node.position.y;
-        this.node['vz'] = this.node.position.z;
-        let dur = 0.8;
-        let durhalf = dur/2;
+        this.initBeforeFlying();
+
+        let dur = this.duration;
+        let durhalf = this.duration / 2;
         cc.tween(this.node).to(dur, {vy:0}).start();
         //cc.tween(this.node).to(dur, {vx:50}, {easing: 'sineOutIn'}).start();
 
@@ -61,11 +96,16 @@ cc.Class({
         let horizon = cc.math.randomRange(-30, 30);
         let far = cc.math.randomRange(-30, -20);
 
-        //up 
-        let up = cc.math.randomRange(10, 15);
-        cc.tween(this.node).to(durhalf, { vy: up }, { easing: 'sineOut' }).start();
-        //down
-        cc.tween(this.node).delay(durhalf).to(durhalf, { vy: 0 }, { easing: 'sineIn' }).start();
+        if (this.arc) {
+            //up 
+            let up = cc.math.randomRange(10, 15);
+            cc.tween(this.node).to(durhalf, { vy: up }, { easing: 'sineOut' }).start();
+            //down
+            cc.tween(this.node).delay(durhalf).to(durhalf, { vy: 0.2 }, { easing: 'sineIn' }).start();
+        } else {
+            cc.tween(this.node).to(dur, { vy: 0.2 }).start();
+        }
+        
         //forward
         cc.tween(this.node).to(dur, { vz: far }).start();
         cc.tween(this.node).to(dur, { vx: horizon }).start();
@@ -74,10 +114,15 @@ cc.Class({
         // -------------------------------------------
 
         if (this.hideObj) this.hideObj.active = true;
+
+        this.scheduleSpawnHitFx();
+    },
+
+    scheduleSpawnHitFx() {
         //at target
         //spawn hitfx
         cc.tween(this.node)
-            .delay(dur)
+            .delay(this.duration)
             .call(() => {
                 //-----------------------------------------------------------
                 //create hitfx after duration
