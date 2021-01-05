@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.Material",
+  "_name": "light 1x3 - 001",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "829a282c-b049-4019-bd38-5ace8d8a6417"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "tintColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "mainTexture": {
+          "__uuid__": "6d49eaf4-6453-4bd1-a103-87d4553814ed"
+        }
+      },
+      "defines": {
+        "OUTPUT_TO_GAMMA": true
+      }
+    }
+  }
+}

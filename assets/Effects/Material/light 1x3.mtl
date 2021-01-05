@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.Material",
+  "_name": "mat lightning 2x2 - 001",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "829a282c-b049-4019-bd38-5ace8d8a6417"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "tintColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "mainTexture": {
+          "__uuid__": "aca8a55e-b592-4f98-98ed-abcc108b828e"
+        }
+      },
+      "defines": {
+        "OUTPUT_TO_GAMMA": true
+      }
+    }
+  }
+}

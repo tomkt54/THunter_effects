@@ -94,7 +94,7 @@ cc.Class({
 
         //random target pos
         let horizon = cc.math.randomRange(-30, 30);
-        let far = cc.math.randomRange(-30, -20);
+        let far = cc.math.randomRange(-7, -15);
 
         if (this.arc) {
             //up 
